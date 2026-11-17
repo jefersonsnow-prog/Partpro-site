@@ -1,0 +1,4 @@
+# Ancienne page blog (widget Soro)
+/blog.html        /blog/   301!
+# Anciennes adresses d'articles Soro : /blog?post=<slug>
+/blog  post=:post /blog/   301!
