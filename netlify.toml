@@ -1,0 +1,25 @@
+# partpro.fr — le site publié est le dossier public/ (pas de build : les pages du blog sont générées
+# par tools/build_blog.py et commitées).
+[build]
+  publish = "public"
+  command = ""
+
+# Ancienne page blog (widget Soro)
+[[redirects]]
+  from = "/blog.html"
+  to = "/blog/"
+  status = 301
+  force = true
+
+# Anciennes adresses d'articles Soro : /blog?post=<slug>
+[[redirects]]
+  from = "/blog"
+  to = "/blog/"
+  status = 301
+  force = true
+  query = {post = ":post"}
+
+[[headers]]
+  for = "/blog/feed.xml"
+  [headers.values]
+    Content-Type = "application/rss+xml; charset=utf-8"

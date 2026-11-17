@@ -1,0 +1,1066 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PartPro : le bon pro pour tous vos travaux de l'habitat</title>
+<meta name="description" content="PartPro vous met en relation avec des professionnels sérieux et vérifiés pour tous vos travaux de l'habitat : énergie, toiture, fenêtres, isolation, salle de bain, rénovation complète. Aussi : vente de bien et nettoyage. Service gratuit.">
+<link rel="canonical" href="https://partpro.fr/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://partpro.fr/">
+<meta property="og:title" content="PartPro : le bon pro pour votre maison, sans chercher">
+<meta property="og:description" content="Solaire, pompe à chaleur, toiture, fenêtres, isolation, salle de bain, rénovation complète : on vous met en relation avec un professionnel vérifié. Gratuit.">
+<meta property="og:locale" content="fr_FR">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "PartPro", "url": "https://partpro.fr/", "telephone": "+33 6 98 97 71 80", "email": "conseil@partpro.fr", "description": "Mise en relation gratuite avec des professionnels vérifiés pour tous les travaux de l'habitat : énergie (pompe à chaleur, panneaux solaires, climatisation), toiture, façade, fenêtres, isolation, salle de bain, cuisine, rénovation complète. Aussi : vente de bien et nettoyage professionnel.", "address": {"@type": "PostalAddress", "addressLocality": "Lyon", "postalCode": "69008", "addressCountry": "FR"}, "areaServed": [{"@type": "AdministrativeArea", "name": "Auvergne-Rhône-Alpes"}, {"@type": "AdministrativeArea", "name": "Île-de-France"}, {"@type": "AdministrativeArea", "name": "Hauts-de-France"}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Figtree:wght@400;500;600&display=swap">
+<style>
+/* Layout : noir profond, titres très larges en blanc, un seul accent or "soleil". Inspiré Ultra. */
+:root{
+  --black:#000000;      /* fond */
+  --card:#0B0B0C;       /* surfaces */
+  --card2:#121214;      /* surfaces hautes */
+  --line:#232326;       /* traits */
+  --ink:#F5F5F2;        /* texte */
+  --mute:#A1A1A6;       /* texte secondaire */
+  --sun:#F2B33D;        /* accent unique */
+  --sun-ink:#140E02;    /* texte sur accent */
+  --display:"Archivo","Arial Narrow",Arial,sans-serif;
+  --body:"Figtree","Segoe UI",system-ui,sans-serif;
+  --w:1200px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--black);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--w);margin:0 auto;padding-inline:20px}
+h1,h2,h3{font-family:var(--display);font-stretch:112%;line-height:1.02;margin:0;text-wrap:balance;letter-spacing:-.015em}
+h2{font-size:clamp(2.1rem,5.4vw,4rem);font-weight:800}
+h3{font-size:1.35rem;font-weight:700;font-stretch:100%;line-height:1.2}
+p{margin:0}
+.eyebrow{font-family:var(--display);font-stretch:100%;font-size:.78rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--sun)}
+.lead{color:var(--mute);font-size:1.12rem;max-width:62ch}
+section{padding-block:clamp(72px,10vw,130px)}
+.sec-head{display:grid;gap:18px;margin-bottom:52px}
+.band{border-top:1px solid var(--line)}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:6px}
+
+/* Boutons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 28px;border-radius:999px;font-family:var(--display);font-stretch:105%;font-weight:700;font-size:1rem;text-decoration:none;border:0;cursor:pointer;transition:transform .15s ease,background .15s ease}
+.btn-sun{background:var(--sun);color:var(--sun-ink)}
+.btn-sun:hover{transform:translateY(-2px);background:#FFC454}
+.btn-line{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.35)}
+.btn-line:hover{box-shadow:inset 0 0 0 1.5px var(--ink)}
+
+/* Header */
+header.top{position:fixed;left:0;right:0;top:0;z-index:40;padding-top:env(safe-area-inset-top,0px);transition:background .25s,border-color .25s;border-bottom:1px solid transparent}
+header.top.solid{background:rgba(0,0,0,.9);backdrop-filter:blur(12px);border-bottom-color:var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:74px}
+.logo{font-family:var(--display);font-weight:900;font-stretch:120%;font-size:1.55rem;text-decoration:none;letter-spacing:-.02em}
+.logo b{color:var(--sun)}
+nav.main{display:flex;gap:28px;font-size:.95rem;color:rgba(245,245,242,.75)}
+nav.main a{text-decoration:none}
+nav.main a:hover{color:var(--ink)}
+.top-cta{display:flex;align-items:center;gap:18px}
+.phone{font-weight:600;white-space:nowrap;text-decoration:none}
+.top-cta .btn{min-height:44px;padding:0 20px;font-size:.92rem}
+@media (max-width:1080px){nav.main{display:none}}
+@media (max-width:560px){.phone{display:none}}
+
+/* Hero : maison 3D cliquable (travaux + aides par partie de la maison) */
+.hero{position:relative;overflow:hidden;isolation:isolate;padding:0;border-bottom:1px solid var(--line)}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(55% 60% at 72% 55%,rgba(242,179,61,.13),rgba(242,179,61,0) 70%),radial-gradient(40% 40% at 20% 10%,rgba(255,255,255,.04),rgba(255,255,255,0) 70%)}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);grid-template-areas:"head stage" "side stage";grid-template-rows:auto 1fr;column-gap:clamp(24px,4vw,56px);align-items:start;padding-block:calc(74px + env(safe-area-inset-top,0px) + clamp(28px,5vw,64px)) clamp(44px,5vw,72px)}
+.hero .head{grid-area:head;min-width:0;padding-top:clamp(8px,3vw,40px)}
+.hero .side{grid-area:side;min-width:0}
+.hero .stage{grid-area:stage;position:sticky;top:96px;min-width:0}
+.hero h1{font-size:clamp(2.4rem,4.6vw,4.4rem);font-weight:900;font-stretch:120%;margin-top:18px;transition:font-size .25s ease}
+.hero h1 em{font-style:normal;color:var(--sun)}
+.hero.open h1{font-size:clamp(2rem,3.4vw,3.1rem)}
+.hero .lead{margin-top:22px;color:rgba(245,245,242,.82);max-width:52ch}
+.hint{display:flex;align-items:center;gap:12px;margin-top:24px;padding:14px 18px;border-radius:16px;background:var(--card2);border:1px solid var(--line);font-size:.95rem;max-width:46ch}
+.hint .dot{flex:none;width:12px;height:12px;border-radius:50%;background:var(--sun);animation:ping 1.8s ease-out infinite}
+.hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px 20px;margin-top:28px}
+.trust{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:32px;padding-top:20px;border-top:1px solid rgba(255,255,255,.14);font-size:.9rem;color:rgba(245,245,242,.8)}
+.trust span::before{content:"✓";color:var(--sun);font-weight:800;margin-right:8px}
+.also{margin-top:14px;font-size:.92rem;color:var(--mute)}
+.also a{color:var(--ink);font-weight:600;text-decoration:none;border-bottom:1px solid rgba(242,179,61,.6)}
+.also a:hover{color:var(--sun)}
+.house{position:relative;width:100%;max-width:100%}
+.house-svg{display:block;width:100%;height:auto;filter:drop-shadow(0 30px 40px rgba(0,0,0,.6))}
+.house-svg .z{cursor:pointer;transition:filter .2s ease}
+.house-svg .z.hl,.house-svg .z.act{filter:drop-shadow(0 0 4px rgba(242,179,61,.95)) drop-shadow(0 0 10px rgba(242,179,61,.55)) brightness(1.06)}
+.house-svg .drop{animation:drip .7s linear infinite}
+.spot{position:absolute;transform:translate(-50%,-50%);width:38px;height:38px;border-radius:50%;border:0;padding:0;cursor:pointer;background:var(--sun);color:var(--sun-ink);display:grid;place-items:center;font:800 1.25rem/1 var(--display);box-shadow:0 6px 18px rgba(0,0,0,.45),0 0 0 3px rgba(0,0,0,.55);transition:transform .15s ease}
+.spot::before{content:"";position:absolute;inset:-2px;border-radius:50%;border:2px solid var(--sun);animation:ring 2.2s ease-out infinite}
+.spot:hover,.spot.act{transform:translate(-50%,-50%) scale(1.12)}
+.spot.act{background:#fff}
+.spot .lbl{position:absolute;left:50%;bottom:calc(100% + 10px);transform:translateX(-50%);white-space:nowrap;padding:6px 12px;border-radius:999px;background:rgba(0,0,0,.85);border:1px solid rgba(242,179,61,.5);color:var(--ink);font:600 .82rem/1.2 var(--body);opacity:0;pointer-events:none;transition:opacity .15s ease}
+.spot:hover .lbl,.spot:focus-visible .lbl,.spot.act .lbl{opacity:1}
+.zones{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:6px}
+.zones button{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:var(--card);border:1px solid rgba(255,255,255,.16);color:var(--ink);font:600 .86rem/1.2 var(--body);cursor:pointer;transition:border-color .15s,color .15s}
+.zones button:hover{border-color:var(--sun);color:var(--sun)}
+.zones button[aria-pressed="true"]{background:var(--sun);border-color:var(--sun);color:var(--sun-ink)}
+.zones i{font-style:normal;font-family:var(--display);font-weight:800;color:var(--sun)}
+.zones button[aria-pressed="true"] i{color:var(--sun-ink)}
+.zpanel{display:grid;gap:18px;margin-top:28px;animation:rise .35s ease;scroll-margin-top:96px}
+.zpanel .back{justify-self:start;display:inline-flex;align-items:center;gap:8px;padding:8px 14px 8px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--mute);font:600 .88rem/1 var(--body);cursor:pointer}
+.zpanel .back:hover{color:var(--ink);border-color:rgba(255,255,255,.35)}
+.zpanel h2{font-size:clamp(2rem,3.6vw,3.1rem);font-weight:900;font-stretch:118%}
+.zpanel .where{display:flex;align-items:center;gap:10px}
+.zpanel .where .num{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--sun);color:var(--sun-ink);font:800 .95rem/1 var(--display)}
+.zpanel .blk{display:grid;gap:10px}
+.zpanel .blk h3{font-size:.78rem;font-weight:700;font-stretch:100%;letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}
+.zpanel .works{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.zpanel .works li{padding:8px 14px;border-radius:999px;background:var(--card2);border:1px solid var(--line);font-size:.92rem}
+.zpanel .aids{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.zpanel .aids li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line)}
+.zpanel .aids li::before{content:"€";grid-row:span 2;display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:rgba(242,179,61,.12);color:var(--sun);font:800 1rem/1 var(--display)}
+.zpanel .aids b{font-family:var(--display);font-stretch:106%;font-size:1.06rem;font-weight:800;line-height:1.25}
+.zpanel .aids span{color:var(--mute);font-size:.93rem;line-height:1.45}
+.zpanel .note{display:flex;gap:10px;padding:12px 14px;border-radius:14px;font-size:.92rem;line-height:1.45;background:rgba(255,255,255,.04);border:1px dashed rgba(255,255,255,.18);color:rgba(245,245,242,.85)}
+.zpanel .note.warn{background:rgba(255,159,107,.07);border-color:rgba(255,159,107,.45)}
+.zpanel .note.warn::before{content:"!";flex:none;display:grid;place-items:center;width:20px;height:20px;border-radius:50%;background:#FF9F6B;color:#1A0B03;font:900 .8rem/1 var(--display);margin-top:1px}
+.zpanel .acts{display:flex;flex-wrap:wrap;gap:12px 16px;align-items:center}
+.zpanel .acts .more{color:var(--sun);font-weight:600;text-decoration:none}
+.zpanel .acts .more:hover{text-decoration:underline}
+.zpanel .stamp{font-size:.8rem;color:var(--mute)}
+@keyframes ring{0%{transform:scale(1);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(242,179,61,.6)}100%{box-shadow:0 0 0 12px rgba(242,179,61,0)}}
+@keyframes drip{to{stroke-dashoffset:-16}}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+/* Téléphone : phrase en haut, maison juste dessous, puis le texte ou la fiche */
+@media (max-width:900px){
+  .hero .wrap{grid-template-columns:minmax(0,1fr);grid-template-areas:"head" "stage" "side";grid-template-rows:auto;padding-block:calc(74px + env(safe-area-inset-top,0px) + 18px) 52px}
+  .hero .head{padding-top:0}
+  .hero h1,.hero.open h1{font-size:clamp(2rem,8.6vw,2.9rem);margin-top:10px}
+  .hero .stage{position:static;margin-top:6px}
+  .hero .lead{margin-top:18px}
+  .zpanel{margin-top:22px}
+  .spot{width:26px;height:26px;font-size:.85rem;box-shadow:0 4px 10px rgba(0,0,0,.45),0 0 0 2px rgba(0,0,0,.55)}
+  .spot .lbl{display:none}
+}
+
+/* Photos */
+.ph{position:relative;overflow:hidden;border-radius:20px;background:#111;max-width:100%}
+.ph img{width:100%;height:100%;object-fit:cover}
+
+/* Univers */
+.univers{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.u-card{position:relative;display:grid;align-content:end;min-height:460px;border-radius:26px;overflow:hidden;text-decoration:none;isolation:isolate;border:1px solid var(--line)}
+.u-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .6s ease}
+.u-card::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.05) 20%,rgba(0,0,0,.92) 85%)}
+.u-card:hover img{transform:scale(1.05)}
+.u-body{display:grid;gap:10px;padding:28px}
+.u-body p{color:rgba(245,245,242,.78);font-size:.98rem}
+.u-go{font-family:var(--display);font-weight:700;color:var(--sun);margin-top:4px}
+@media (max-width:900px){.univers{grid-template-columns:1fr}.u-card{min-height:380px}}
+
+/* Transformation étape par étape */
+.journey{position:relative;display:grid;gap:clamp(56px,8vw,96px)}
+.journey::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--line);transform:translateX(-.5px)}
+.jstep{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,7vw,96px);align-items:center;position:relative}
+.jstep::before{content:"";position:absolute;left:50%;top:50%;width:14px;height:14px;border-radius:50%;background:var(--sun);transform:translate(-50%,-50%);box-shadow:0 0 0 6px #000,0 0 0 7px var(--line)}
+.jstep:nth-child(even) .jphoto{order:2}
+.jphoto{aspect-ratio:4/3;border-radius:24px}
+.jtext{display:grid;gap:14px;align-content:center}
+.jnum{font-family:var(--display);font-weight:900;font-stretch:125%;font-size:clamp(3.6rem,7vw,5.6rem);line-height:.9;color:transparent;-webkit-text-stroke:1.5px var(--sun)}
+.jtext h3{font-size:clamp(1.6rem,3vw,2.3rem);font-stretch:112%;font-weight:800}
+.jtext p{color:var(--mute)}
+.jpro{justify-self:start;font-size:.85rem;font-weight:600;padding:7px 14px;border-radius:999px;background:rgba(242,179,61,.12);color:var(--sun)}
+@media (max-width:860px){
+  .journey::before{left:18px}
+  .jstep{grid-template-columns:1fr;gap:22px;padding-left:48px}
+  .jstep::before{left:18px;top:24px}
+  .jstep:nth-child(even) .jphoto{order:0}
+}
+
+/* Services rénovation */
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.svc{background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden;display:grid;grid-template-rows:auto 1fr}
+.svc .ph{aspect-ratio:16/10;border-radius:0}
+.svc .t{padding:20px 20px 24px;display:grid;gap:8px;align-content:start}
+.svc p{color:var(--mute);font-size:.95rem;line-height:1.5}
+@media (max-width:1000px){.services{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.services{grid-template-columns:1fr}}
+
+/* Blocs split */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+@media (max-width:900px){.split{grid-template-columns:1fr;gap:36px}}
+.split .ph{aspect-ratio:4/5;border-radius:26px}
+.list{display:grid;gap:16px;margin:30px 0 0;padding:0;list-style:none}
+.list li{display:grid;grid-template-columns:28px 1fr;gap:12px;align-items:start}
+.list li::before{content:"";width:22px;height:22px;margin-top:3px;border-radius:50%;background:var(--sun) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12.5l4 4 8-9' fill='none' stroke='%23140E02' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/14px no-repeat}
+.list b{display:block}
+.list span{color:var(--mute);font-size:.96rem}
+.note{margin-top:28px;padding:18px 20px;border-radius:16px;background:var(--card2);border:1px solid var(--line);font-size:.96rem;color:var(--mute)}
+.note b{color:var(--sun)}
+
+/* Avis clients */
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.review{display:grid;gap:18px;align-content:start;padding:32px 28px;background:var(--card);border:1px solid var(--line);border-radius:26px;position:relative}
+.review .qm{font-family:Georgia,"Times New Roman",serif;font-size:4.2rem;line-height:.6;color:var(--sun);height:30px}
+.review h3{font-size:1.25rem}
+.review p{color:rgba(245,245,242,.8)}
+.review .who{display:flex;align-items:center;gap:12px;border-top:1px solid var(--line);padding-top:18px}
+.review .av{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--sun);color:var(--sun-ink);font-family:var(--display);font-weight:800}
+.review .who b{display:block;font-size:.98rem}
+.review .who small{color:var(--mute)}
+.tag{justify-self:start;font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;border:1px solid rgba(242,179,61,.4);color:var(--sun)}
+@media (max-width:960px){.reviews{grid-template-columns:1fr}}
+
+/* Qui je suis */
+.me{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.me-name{font-family:var(--display);font-weight:900;font-stretch:125%;font-size:clamp(3.2rem,12.5vw,8rem);line-height:.9;letter-spacing:-.03em;white-space:nowrap}
+.me-name span{display:block;white-space:normal;color:var(--sun);font-size:max(.2em,1.05rem);font-stretch:110%;letter-spacing:.02em;margin-top:20px;line-height:1.25}
+.me-text{display:grid;gap:24px}
+.me-text .quote{font-family:var(--display);font-stretch:108%;font-weight:700;font-size:clamp(1.3rem,2.4vw,1.7rem);line-height:1.25}
+.timeline{display:grid;margin:4px 0 0;padding:0;list-style:none;border-left:1px solid var(--line)}
+.timeline li{position:relative;padding:0 0 22px 28px}
+.timeline li::before{content:"";position:absolute;left:-7px;top:6px;width:13px;height:13px;border-radius:50%;background:var(--sun)}
+.timeline b{font-family:var(--display);font-stretch:110%;display:block}
+.timeline span{color:var(--mute);font-size:.96rem}
+.values{display:flex;flex-wrap:wrap;gap:10px}
+.values span{padding:9px 16px;border-radius:999px;border:1px solid var(--line);font-weight:600;font-size:.92rem}
+@media (max-width:900px){.me{grid-template-columns:1fr;gap:36px}}
+
+/* Écosystème */
+.chain{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.link{padding:30px;border:1px solid var(--line);background:var(--card)}
+.link:first-child{border-radius:24px 0 0 24px}
+.link:last-child{border-radius:0 24px 24px 0}
+.link+.link{border-left:0}
+.link .n{font-family:var(--display);font-weight:900;font-stretch:120%;font-size:3rem;color:var(--sun);line-height:1}
+.link h3{margin-top:14px}
+.link p{color:var(--mute);margin-top:8px;font-size:.96rem}
+@media (max-width:860px){.chain{grid-template-columns:1fr}.link:first-child{border-radius:24px 24px 0 0}.link:last-child{border-radius:0 0 24px 24px}.link+.link{border-left:1px solid var(--line);border-top:0}}
+
+/* Étapes */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.step{padding:28px;border-radius:24px;border:1px solid var(--line);background:var(--card)}
+.step .n{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--sun);color:var(--sun-ink);font-family:var(--display);font-weight:800}
+.step h3{margin-top:16px}
+.step p{color:var(--mute);margin-top:8px;font-size:.96rem}
+@media (max-width:860px){.steps{grid-template-columns:1fr}}
+
+/* Pros */
+.pro-box{display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:center;padding:clamp(28px,5vw,60px);border-radius:30px;background:var(--card);border:1px solid var(--line)}
+.pro-box .btn{justify-self:start}
+@media (max-width:860px){.pro-box{grid-template-columns:1fr}}
+
+/* FAQ */
+.faq{display:grid;gap:12px;max-width:880px}
+.faq details{border:1px solid var(--line);border-radius:18px;background:var(--card);padding:0 22px}
+.faq summary{cursor:pointer;list-style:none;padding:20px 0;font-family:var(--display);font-stretch:104%;font-weight:700;font-size:1.08rem;display:flex;justify-content:space-between;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--sun);font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:"–"}
+.faq details p{color:var(--mute);padding:0 0 20px;max-width:70ch}
+
+/* Parcours 60 secondes */
+.form-wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
+@media (max-width:900px){.form-wrap{grid-template-columns:1fr}}
+.quiz{background:var(--card);border:1px solid var(--line);border-radius:30px;padding:clamp(22px,4vw,42px)}
+.progress{display:flex;gap:6px;margin-bottom:26px}
+.progress i{flex:1;height:5px;border-radius:5px;background:var(--line)}
+.progress i.on{background:var(--sun)}
+.q-title{font-family:var(--display);font-stretch:108%;font-weight:800;font-size:1.5rem;line-height:1.15;margin-bottom:20px}
+.choices{display:grid;gap:12px}
+.choice{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;text-align:left;width:100%;padding:16px 18px;border-radius:16px;border:1.5px solid var(--line);background:transparent;color:var(--ink);font:inherit;cursor:pointer;transition:border-color .15s,background .15s}
+.choice:hover{border-color:var(--mute)}
+.choice.sel{border-color:var(--sun);background:rgba(242,179,61,.07)}
+.choice .ic{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:var(--card2);color:var(--sun)}
+.choice b{display:block;font-family:var(--display);font-stretch:104%}
+.choice small{color:var(--mute);font-size:.88rem}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fields .full{grid-column:1/-1}
+@media (max-width:520px){.fields{grid-template-columns:1fr}}
+label.f{display:grid;gap:6px;font-size:.9rem;font-weight:600;min-width:0}
+.f input,.f select,.f textarea{width:100%;font:inherit;font-size:1rem;color:var(--ink);background:#000;border:1.5px solid var(--line);border-radius:12px;padding:13px 14px}
+.f textarea{min-height:96px;resize:vertical}
+.f input:focus,.f select:focus,.f textarea:focus{outline:none;border-color:var(--sun)}
+.consent{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;font-size:.86rem;color:var(--mute);margin-top:4px}
+.consent input{margin-top:4px;accent-color:var(--sun);width:18px;height:18px}
+.q-nav{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:26px;flex-wrap:wrap}
+.back{background:none;border:0;color:var(--mute);font:inherit;cursor:pointer;padding:8px 0}
+.back:hover{color:var(--ink)}
+.err{color:#FF8E7A;font-size:.9rem;min-height:1.3em;margin-top:10px}
+.done{text-align:center;display:grid;gap:14px;justify-items:center;padding:20px 0}
+.done .big{width:72px;height:72px;border-radius:50%;display:grid;place-items:center;background:var(--sun);color:var(--sun-ink);font-size:2rem;font-weight:900}
+.side-points{display:grid;gap:14px;margin-top:28px}
+.side-points div{display:flex;gap:12px;align-items:baseline}
+.side-points strong{font-family:var(--display);color:var(--sun);font-size:1.4rem;min-width:70px}
+.side-points span{color:var(--mute)}
+
+/* Liens par ville */
+.villes{margin-top:40px;display:grid;gap:16px}
+.villes-links{display:flex;flex-wrap:wrap;gap:10px}
+.villes-links a{padding:10px 16px;border-radius:999px;border:1px solid var(--line);text-decoration:none;font-weight:600;font-size:.92rem}
+.villes-links a:hover{border-color:var(--sun);color:var(--sun)}
+.f-reassure{font-size:.86rem;color:var(--mute);margin-top:14px}
+.steplabel{font-size:.85rem;color:var(--mute);margin:-16px 0 18px}
+
+/* Footer */
+footer{border-top:1px solid var(--line);padding-block:52px 110px;color:var(--mute);font-size:.92rem}
+.foot{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.2fr;gap:32px}
+.foot b{color:var(--ink);display:block;margin-bottom:10px;font-family:var(--display)}
+.foot a{text-decoration:none}
+.foot a:hover{color:var(--ink)}
+.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+@media (max-width:960px){.foot{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.foot{grid-template-columns:1fr}}
+
+/* WhatsApp */
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:50;display:flex;align-items:center;gap:10px;padding:0 20px 0 14px;height:56px;border-radius:999px;background:#25D366;color:#06270F;font-weight:700;text-decoration:none;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.wa svg{width:28px;height:28px}
+@media (max-width:520px){.wa span{display:none}.wa{padding:0 14px}}
+
+/* Pastilles du hero : tout ce qu'on couvre, en un coup d'œil */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px;max-width:880px}
+.chips a{display:inline-flex;align-items:center;gap:8px;padding:9px 15px;border-radius:999px;background:rgba(0,0,0,.45);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.18);font-size:.9rem;font-weight:600;text-decoration:none;color:var(--ink);transition:border-color .15s,color .15s}
+.chips a:hover{border-color:var(--sun);color:var(--sun)}
+.chips a i{font-style:normal;color:var(--sun);font-size:.85rem}
+@media (max-width:700px){.chips a{background:var(--card);backdrop-filter:none;font-size:.86rem;padding:8px 13px}}
+
+/* Familles de travaux */
+.fam+.fam{margin-top:64px}
+.fam-head{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:22px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.fam-head h3{font-size:clamp(1.5rem,2.6vw,2rem);font-stretch:112%;font-weight:800}
+.fam-head span{color:var(--mute);font-size:.95rem}
+.fam-head .n{font-family:var(--display);font-weight:900;font-stretch:120%;color:var(--sun);font-size:1rem;letter-spacing:.08em}
+.services.s4{grid-template-columns:repeat(4,1fr)}
+.services.s4 .ph{aspect-ratio:4/5}
+.svc .kind{justify-self:start;font-size:.74rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--sun)}
+.svc .hint{justify-self:start;margin-top:4px;font-size:.8rem;font-weight:600;color:var(--sun)}
+@media (max-width:1000px){.services.s4{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.services.s4{grid-template-columns:1fr}.services.s4 .ph{aspect-ratio:16/10}}
+.all-cta{margin-top:40px;display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px;padding:24px 28px;border-radius:22px;border:1px dashed rgba(242,179,61,.45)}
+.all-cta p{flex:1 1 320px;color:var(--ink);font-family:var(--display);font-stretch:106%;font-weight:700;font-size:1.15rem;line-height:1.3}
+.all-cta p span{color:var(--mute);font-family:var(--body);font-weight:400;font-size:.95rem;display:block;margin-top:4px}
+
+/* Section professionnels */
+.pros{position:relative;overflow:hidden;border-radius:34px;border:1px solid var(--line);background:radial-gradient(120% 90% at 100% 0%,rgba(242,179,61,.16) 0%,rgba(242,179,61,0) 55%),var(--card);padding:clamp(28px,5vw,64px)}
+.pros-head{display:grid;gap:16px;max-width:760px}
+.pros-head h2{font-size:clamp(2rem,4.6vw,3.4rem)}
+.pros-head h2 em{font-style:normal;color:var(--sun)}
+.offers{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:44px}
+.offer{display:flex;flex-direction:column;gap:18px;padding:28px;border-radius:26px;background:#000;border:1px solid var(--line)}
+.offer.hl{border-color:rgba(242,179,61,.55);box-shadow:0 0 0 1px rgba(242,179,61,.15),0 20px 60px -30px rgba(242,179,61,.45)}
+.offer .lbl{align-self:flex-start;font-family:var(--display);font-weight:800;font-stretch:110%;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;padding:6px 12px;border-radius:999px;background:rgba(242,179,61,.12);color:var(--sun)}
+.offer h3{font-size:clamp(1.4rem,2.4vw,1.85rem);font-stretch:110%;font-weight:800}
+.offer > p{color:var(--mute)}
+.offer .list{margin-top:0}
+.offer .btn{align-self:flex-start;margin-top:auto}
+.offers>*{min-width:0}
+@media (max-width:900px){.offers{grid-template-columns:1fr}}
+@media (max-width:560px){.pros{padding:24px 18px}.offer{padding:22px 18px}.flow{padding:14px 10px;gap:4px}.flow div{font-size:.72rem}.flow div i{width:32px;height:32px}.flow div+div::before{top:16px;right:calc(50% + 19px);width:calc(100% - 30px)}}
+/* Visuel formule 1 : le parcours du prospect */
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:18px;border-radius:18px;background:var(--card2);border:1px solid var(--line)}
+.flow div{position:relative;display:grid;gap:8px;justify-items:center;text-align:center;font-size:.8rem;font-weight:600;color:var(--mute)}
+.flow div i{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-style:normal;font-family:var(--display);font-weight:800;background:var(--card);border:1.5px solid var(--line);color:var(--ink)}
+.flow div:last-child i{background:var(--sun);border-color:var(--sun);color:var(--sun-ink)}
+.flow div:last-child{color:var(--ink)}
+.flow div+div::before{content:"";position:absolute;top:19px;right:calc(50% + 22px);width:calc(100% - 36px);height:1.5px;background:linear-gradient(90deg,var(--line),rgba(242,179,61,.6))}
+/* Visuel formule 2 : un agenda avec le RDV posé */
+.agenda{padding:16px;border-radius:18px;background:var(--card2);border:1px solid var(--line)}
+.agenda-top{display:flex;justify-content:space-between;align-items:center;font-size:.8rem;color:var(--mute);margin-bottom:12px}
+.agenda-top b{color:var(--ink);font-family:var(--display);font-stretch:106%}
+.agenda-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.agenda-grid .d{font-size:.72rem;color:var(--mute);text-align:center;padding-bottom:4px}
+.agenda-grid .s{height:26px;border-radius:7px;background:var(--card);border:1px solid var(--line)}
+.agenda-grid .s.busy{background:#1B1B1E}
+.agenda-grid .s.rdv{grid-column:span 1;background:var(--sun);border-color:var(--sun);position:relative}
+.agenda-rdv{display:flex;gap:12px;align-items:center;margin-top:12px;padding:10px 12px;border-radius:12px;background:rgba(242,179,61,.1);border:1px solid rgba(242,179,61,.35);font-size:.84rem}
+.agenda-rdv i{font-style:normal;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--sun);color:var(--sun-ink);font-weight:900;flex:none}
+.agenda-rdv span{color:var(--mute)}
+.agenda-rdv b{color:var(--ink);display:block}
+/* Bande d'engagements + métiers */
+.pro-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:18px;border:1px solid var(--line);border-radius:22px;overflow:hidden}
+.pro-strip div{padding:20px 22px;background:#000}
+.pro-strip div+div{border-left:1px solid var(--line)}
+.pro-strip strong{display:block;font-family:var(--display);font-stretch:112%;font-weight:900;font-size:1.5rem;color:var(--sun);line-height:1.1}
+.pro-strip span{color:var(--mute);font-size:.92rem}
+@media (max-width:760px){.pro-strip{grid-template-columns:1fr}.pro-strip div+div{border-left:0;border-top:1px solid var(--line)}}
+.metiers{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px;align-items:center}
+.metiers b{font-family:var(--display);font-stretch:106%;margin-right:6px}
+.metiers span{padding:7px 13px;border-radius:999px;border:1px solid var(--line);font-size:.86rem;color:rgba(245,245,242,.85)}
+.pro-end{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center;margin-top:30px}
+
+/* Apparition douce au défilement (le contenu reste visible sans JS) */
+.reveal{transition:opacity .8s ease,transform .8s ease}
+.js .reveal.pending{opacity:0;transform:translateY(28px)}
+</style>
+</head>
+<body>
+
+<header class="top" id="hdr"><div class="wrap">
+  <a class="logo" href="#top">Part<b>Pro</b></a>
+  <nav class="main" aria-label="Navigation principale">
+    <a href="#renovation">Travaux</a>
+    <a href="#vendre">Vendre un bien</a>
+    <a href="#nettoyage">Nettoyage</a>
+    <a href="#pros">Professionnels</a>
+    <a href="#avis">Avis clients</a>
+    <a href="#geroud">Qui je suis</a>
+    <a href="/blog/">Blog</a>
+  </nav>
+  <div class="top-cta">
+    <a class="phone" href="tel:+33698977180">06 98 97 71 80</a>
+    <a class="btn btn-sun" href="#projet">Mon projet</a>
+  </div>
+</div></header>
+
+<main id="top">
+
+<!-- HERO : maison 3D cliquable -->
+<section class="hero" aria-label="Votre maison, pièce par pièce">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Mise en relation · Tous travaux de l'habitat</p>
+      <h1>Un projet pour votre maison ? <em>On a le bon pro.</em></h1>
+    </div>
+    <div class="stage">
+      <div class="house" id="house">
+        <svg class="house-svg" viewBox="0 0 919 759" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Maison en coupe : toiture, combles, salle de bain, séjour, fenêtres, pompe à chaleur et garage"><defs>
+<linearGradient id="glassR" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CFE6F2"/><stop offset=".55" stop-color="#8FB7CF"/><stop offset="1" stop-color="#5E87A3"/></linearGradient>
+<linearGradient id="glassL" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D8ECF6"/><stop offset=".55" stop-color="#9CC2D8"/><stop offset="1" stop-color="#6A93AE"/></linearGradient>
+<linearGradient id="pv" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2F5A9A"/><stop offset=".5" stop-color="#1C3A6E"/><stop offset="1" stop-color="#132A52"/></linearGradient>
+<linearGradient id="eaveR" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".22"/></linearGradient>
+<radialGradient id="leaf" cx=".38" cy=".32" r=".75"><stop offset="0" stop-color="#9CCB6E"/><stop offset=".6" stop-color="#5E9445"/><stop offset="1" stop-color="#3F6E30"/></radialGradient>
+<pattern id="wool" width="14" height="8" patternUnits="userSpaceOnUse"><rect width="14" height="8" fill="#F3C553"/><path d="M0,5 q3.5,-4 7,0 t7,0" fill="none" stroke="#DCA834" stroke-width="1.2"/></pattern>
+<pattern id="woolS" width="12" height="6" patternUnits="userSpaceOnUse"><rect width="12" height="6" fill="#E9B640"/><path d="M0,3 q3,-3 6,0 t6,0" fill="none" stroke="#C99626" stroke-width="1.1"/></pattern>
+</defs><g transform="translate(377.2,254.5)"><polygon points="524.1,278.8 164.9,486.2 164.9,455.6 524.1,248.2" fill="#4A392D" stroke="#3C2E24" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-359.2,183.6 164.9,486.2 164.9,455.6 -359.2,153.0" fill="#5C4738" stroke="#3C2E24" stroke-width="0.5" stroke-linejoin="round"/><polygon points="0.0,-54.4 524.1,248.2 164.9,455.6 -359.2,153.0" fill="#7DA35E" stroke="#3C2E24" stroke-width="0.5" stroke-linejoin="round"/><line x1="-359.2" y1="153.0" x2="164.9" y2="455.6" stroke="#9CC27B" stroke-width="1.4" stroke-linecap="round"/><line x1="524.1" y1="248.2" x2="164.9" y2="455.6" stroke="#8DB56D" stroke-width="1.4" stroke-linecap="round"/><polygon points="212.0,248.0 320.9,310.9 117.8,428.2 8.8,365.3" fill="#A7A49E" stroke="#8F8C86" stroke-width="0.6" stroke-linejoin="round"/><line x1="184.0" y1="264.1" x2="293.0" y2="327.0" stroke="rgba(80,78,74,.22)" stroke-width="0.8" stroke-linecap="round"/><line x1="156.1" y1="280.3" x2="265.0" y2="343.2" stroke="rgba(80,78,74,.22)" stroke-width="0.8" stroke-linecap="round"/><line x1="128.1" y1="296.4" x2="237.0" y2="359.3" stroke="rgba(80,78,74,.22)" stroke-width="0.8" stroke-linecap="round"/><line x1="100.1" y1="312.6" x2="209.1" y2="375.5" stroke="rgba(80,78,74,.22)" stroke-width="0.8" stroke-linecap="round"/><line x1="72.1" y1="328.7" x2="181.1" y2="391.6" stroke="rgba(80,78,74,.22)" stroke-width="0.8" stroke-linecap="round"/><line x1="44.2" y1="344.9" x2="153.1" y2="407.8" stroke="rgba(80,78,74,.22)" stroke-width="0.8" stroke-linecap="round"/><line x1="16.2" y1="361.0" x2="125.1" y2="423.9" stroke="rgba(80,78,74,.22)" stroke-width="0.8" stroke-linecap="round"/><polygon points="-217.9,112.0 88.3,288.8 41.2,316.0 -265.0,139.2" fill="#CFC6B8" stroke="#B3A996" stroke-width="0.6" stroke-linejoin="round"/><line x1="-187.3" y1="129.7" x2="-234.4" y2="156.9" stroke="rgba(120,108,90,.28)" stroke-width="0.7" stroke-linecap="round"/><line x1="-156.6" y1="147.4" x2="-203.8" y2="174.6" stroke="rgba(120,108,90,.28)" stroke-width="0.7" stroke-linecap="round"/><line x1="-126.0" y1="165.0" x2="-173.1" y2="192.2" stroke="rgba(120,108,90,.28)" stroke-width="0.7" stroke-linecap="round"/><line x1="-95.4" y1="182.7" x2="-142.5" y2="209.9" stroke="rgba(120,108,90,.28)" stroke-width="0.7" stroke-linecap="round"/><line x1="-64.8" y1="200.4" x2="-111.9" y2="227.6" stroke="rgba(120,108,90,.28)" stroke-width="0.7" stroke-linecap="round"/><line x1="-34.2" y1="218.1" x2="-81.3" y2="245.3" stroke="rgba(120,108,90,.28)" stroke-width="0.7" stroke-linecap="round"/><line x1="-3.5" y1="235.8" x2="-50.6" y2="263.0" stroke="rgba(120,108,90,.28)" stroke-width="0.7" stroke-linecap="round"/><line x1="27.1" y1="253.4" x2="-20.0" y2="280.6" stroke="rgba(120,108,90,.28)" stroke-width="0.7" stroke-linecap="round"/><line x1="57.7" y1="271.1" x2="10.6" y2="298.3" stroke="rgba(120,108,90,.28)" stroke-width="0.7" stroke-linecap="round"/><line x1="88.3" y1="288.8" x2="41.2" y2="316.0" stroke="rgba(120,108,90,.28)" stroke-width="0.7" stroke-linecap="round"/><polygon points="294.4,169.9 371.0,214.1 153.1,339.9 76.6,295.7" fill="rgba(20,28,16,.22)"/><polygon points="297.4,171.7 88.3,292.4 88.3,278.8 297.4,158.1" fill="#858077" stroke="#6c6760" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-209.1,120.7 88.3,292.4 88.3,278.8 -209.1,107.1" fill="#a29b90" stroke="#6c6760" stroke-width="0.5" stroke-linejoin="round"/><polygon points="0.0,-13.6 297.4,158.1 88.3,278.8 -209.1,107.1" fill="#b9b1a6" stroke="#6c6760" stroke-width="0.5" stroke-linejoin="round"/><g class="z" data-z="sdb"><polygon points="-97.2,-35.9 11.8,27.0 -88.3,84.8 -197.3,21.9" fill="#DCE3E6"/><line x1="-84.8" y1="-28.9" x2="-184.9" y2="28.9" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><line x1="-72.4" y1="-21.8" x2="-172.5" y2="36.0" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><line x1="-60.1" y1="-14.6" x2="-160.2" y2="43.2" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><line x1="-47.7" y1="-7.5" x2="-147.8" y2="50.3" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><line x1="-35.3" y1="-0.3" x2="-135.4" y2="57.5" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><line x1="-23.0" y1="6.8" x2="-123.1" y2="64.6" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><line x1="-10.6" y1="13.9" x2="-110.7" y2="71.7" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><line x1="1.8" y1="21.1" x2="-98.3" y2="78.9" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><line x1="-110.4" y1="-28.4" x2="-1.5" y2="34.5" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><line x1="-123.7" y1="-20.7" x2="-14.7" y2="42.2" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><line x1="-136.9" y1="-13.1" x2="-28.0" y2="49.8" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><line x1="-150.2" y1="-5.4" x2="-41.2" y2="57.5" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><line x1="-163.4" y1="2.2" x2="-54.5" y2="65.1" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><line x1="-176.7" y1="9.9" x2="-67.7" y2="72.8" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><line x1="-189.9" y1="17.5" x2="-81.0" y2="80.4" stroke="rgba(110,130,140,.28)" stroke-width="0.5" stroke-linecap="round"/><polygon points="-97.2,-35.7 -197.3,22.1 -197.3,-69.7 -97.2,-127.5" fill="#E6EDF0"/><line x1="-96.9" y1="-49.1" x2="-197.0" y2="8.7" stroke="rgba(110,130,140,.25)" stroke-width="0.5" stroke-linecap="round"/><line x1="-96.9" y1="-62.7" x2="-197.0" y2="-4.9" stroke="rgba(110,130,140,.25)" stroke-width="0.5" stroke-linecap="round"/><line x1="-96.9" y1="-76.3" x2="-197.0" y2="-18.5" stroke="rgba(110,130,140,.25)" stroke-width="0.5" stroke-linecap="round"/><line x1="-96.9" y1="-89.9" x2="-197.0" y2="-32.1" stroke="rgba(110,130,140,.25)" stroke-width="0.5" stroke-linecap="round"/><line x1="-96.9" y1="-103.5" x2="-197.0" y2="-45.7" stroke="rgba(110,130,140,.25)" stroke-width="0.5" stroke-linecap="round"/><line x1="-96.9" y1="-117.1" x2="-197.0" y2="-59.3" stroke="rgba(110,130,140,.25)" stroke-width="0.5" stroke-linecap="round"/><line x1="-110.1" y1="-27.9" x2="-110.1" y2="-119.7" stroke="rgba(110,130,140,.2)" stroke-width="0.5" stroke-linecap="round"/><line x1="-123.4" y1="-20.2" x2="-123.4" y2="-112.0" stroke="rgba(110,130,140,.2)" stroke-width="0.5" stroke-linecap="round"/><line x1="-136.6" y1="-12.6" x2="-136.6" y2="-104.4" stroke="rgba(110,130,140,.2)" stroke-width="0.5" stroke-linecap="round"/><line x1="-149.9" y1="-4.9" x2="-149.9" y2="-96.7" stroke="rgba(110,130,140,.2)" stroke-width="0.5" stroke-linecap="round"/><line x1="-163.1" y1="2.7" x2="-163.1" y2="-89.1" stroke="rgba(110,130,140,.2)" stroke-width="0.5" stroke-linecap="round"/><line x1="-176.4" y1="10.4" x2="-176.4" y2="-81.4" stroke="rgba(110,130,140,.2)" stroke-width="0.5" stroke-linecap="round"/><line x1="-189.6" y1="18.0" x2="-189.6" y2="-73.8" stroke="rgba(110,130,140,.2)" stroke-width="0.5" stroke-linecap="round"/><polygon points="-136.9,-11.7 -88.3,16.3 -145.8,49.5 -194.3,21.4" fill="#C3CED4" stroke="#A9B5BC" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-141.3,19.6 -142.1,19.9 -142.9,20.1 -143.8,20.2 -144.7,20.2 -145.7,20.1 -146.5,19.9 -147.2,19.5 -147.8,19.1 -148.2,18.6 -148.4,18.1 -148.4,17.6 -148.2,17.1 -147.8,16.6 -147.2,16.2 -146.5,15.8 -145.7,15.6 -144.7,15.5 -143.8,15.5 -142.9,15.6 -142.1,15.8 -141.3,16.2 -140.8,16.6 -140.3,17.1 -140.1,17.6 -140.1,18.1 -140.3,18.6 -140.8,19.1" fill="#7F8A90"/><polygon points="-132.5,-13.6 -156.1,-0.0 -156.1,-3.4 -132.5,-17.0" fill="#bcbcbc" stroke="#999999" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-170.8,-8.5 -156.1,-0.0 -156.1,-3.4 -170.8,-11.9" fill="#e5e5e5" stroke="#999999" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-147.2,-25.5 -132.5,-17.0 -156.1,-3.4 -170.8,-11.9" fill="#ffffff" stroke="#999999" stroke-width="0.5" stroke-linejoin="round"/><line x1="-178.4" y1="-18.0" x2="-193.2" y2="-9.5" stroke="#AEB5BA" stroke-width="2.4" stroke-linecap="round"/><line x1="-141.6" y1="-42.7" x2="-141.6" y2="-76.7" stroke="#AEB5BA" stroke-width="1.8" stroke-linecap="round"/><ellipse cx="-136.9" cy="-75.6" rx="6" ry="3" fill="#9FA7AC"/><line class="drop" x1="-136.9" y1="-72.2" x2="-136.9" y2="-24.7" stroke="#9ED3EA" stroke-width="1" stroke-dasharray="3 5" opacity=".8"/><line class="drop" x1="-136.6" y1="-70.7" x2="-136.3" y2="-22.6" stroke="#9ED3EA" stroke-width="1" stroke-dasharray="3 5" opacity=".8"/><line class="drop" x1="-136.3" y1="-69.2" x2="-135.7" y2="-20.6" stroke="#9ED3EA" stroke-width="1" stroke-dasharray="3 5" opacity=".8"/><line class="drop" x1="-136.0" y1="-67.7" x2="-135.2" y2="-18.5" stroke="#9ED3EA" stroke-width="1" stroke-dasharray="3 5" opacity=".8"/><line class="drop" x1="-135.7" y1="-66.1" x2="-134.6" y2="-16.5" stroke="#9ED3EA" stroke-width="1" stroke-dasharray="3 5" opacity=".8"/><polygon points="-88.3,17.0 -145.8,50.1 -145.8,-21.2 -88.3,-54.4" fill="rgba(185,222,238,.32)" stroke="rgba(230,245,250,.95)" stroke-width="0.9" stroke-linejoin="round"/><line x1="-97.2" y1="-42.5" x2="-120.7" y2="-1.7" stroke="rgba(255,255,255,.65)" stroke-width="1.3" stroke-linecap="round"/><polygon points="-94.2,33.3 -67.7,48.6 -97.2,65.6 -123.7,50.3" fill="#F2B33D"/><polygon points="-11.8,-3.4 -35.3,10.2 -35.3,-10.2 -11.8,-23.8" fill="#b6b4b0" stroke="#94928e" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-39.8,7.7 -35.3,10.2 -35.3,-10.2 -39.8,-12.8" fill="#dedbd6" stroke="#94928e" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-16.2,-26.3 -11.8,-23.8 -35.3,-10.2 -39.8,-12.8" fill="#f7f4ef" stroke="#94928e" stroke-width="0.5" stroke-linejoin="round"/></g><g><path d="M-206.1,107.1 L88.3,277.1 L88.3,85.0 L-206.1,-85.0 ZM-192.9,17.8 L-85.4,79.9 L-85.4,-5.1 L-192.9,-67.2 Z" fill="#e6e3dc" fill-rule="evenodd" stroke="#BDB6AA" stroke-width="0.6" stroke-linejoin="round"/><g class="z" data-z="sdb"><polygon points="-192.9,17.8 -184.0,12.8 -184.0,-72.2 -192.9,-67.2" fill="#CFC7BA"/><polygon points="-184.0,12.8 -76.6,74.8 -85.4,79.9 -192.9,17.8" fill="#d1c9bd"/><line x1="-192.9" y1="17.8" x2="-85.4" y2="79.9" stroke="#8E867A" stroke-width="1.0" stroke-linecap="round"/><line x1="-192.9" y1="-67.2" x2="-85.4" y2="-5.1" stroke="#8E867A" stroke-width="1.0" stroke-linecap="round"/></g><g><line x1="-206.4" y1="17.2" x2="88.0" y2="187.2" stroke="#DCD5CA" stroke-width="2.0" stroke-linecap="round"/><g class="z" data-z="fenetres"><polygon points="-179.9,112.4 -56.2,183.8 -56.2,120.9 -179.9,49.5" fill="#F7F5F1" stroke="#B9B4AA" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-177.3,110.8 -59.5,178.8 -59.5,122.7 -177.3,54.7" fill="url(#glassL)"/><line x1="-148.1" y1="128.0" x2="-148.1" y2="71.9" stroke="#F7F5F1" stroke-width="2.2" stroke-linecap="round"/><line x1="-118.7" y1="145.0" x2="-118.7" y2="88.9" stroke="#F7F5F1" stroke-width="2.2" stroke-linecap="round"/><line x1="-89.2" y1="162.0" x2="-89.2" y2="105.9" stroke="#F7F5F1" stroke-width="2.2" stroke-linecap="round"/><line x1="-171.7" y1="65.1" x2="-156.9" y2="90.6" stroke="rgba(255,255,255,.55)" stroke-width="1.5" stroke-linecap="round"/><polygon points="-54.5,185.8 -59.8,188.9 -59.8,186.2 -54.5,183.1" fill="#aaa7a2" stroke="#8a8884" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-186.4,115.8 -59.8,188.9 -59.8,186.2 -186.4,113.0" fill="#cfccc6" stroke="#8a8884" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-181.1,110.0 -54.5,183.1 -59.8,186.2 -186.4,113.0" fill="#e8e4de" stroke="#8a8884" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-55.9,120.7 -60.7,123.4 -60.7,115.9 -55.9,113.2" fill="#a09d97" stroke="#827f7b" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-184.3,52.0 -60.7,123.4 -60.7,115.9 -184.3,44.5" fill="#c3bfb8" stroke="#827f7b" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-179.6,41.8 -55.9,113.2 -60.7,115.9 -184.3,44.5" fill="#dbd7d0" stroke="#827f7b" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-53.3,80.1 -3.2,109.0 -3.2,56.3 -53.3,27.4" fill="#F7F5F1" stroke="#B9B4AA" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-50.6,78.5 -6.5,104.0 -6.5,58.1 -50.6,32.6" fill="url(#glassL)"/><line x1="-28.9" y1="91.5" x2="-28.9" y2="45.6" stroke="#F7F5F1" stroke-width="2.2" stroke-linecap="round"/><line x1="-45.1" y1="43.0" x2="-30.3" y2="68.5" stroke="rgba(255,255,255,.55)" stroke-width="1.5" stroke-linecap="round"/><polygon points="-1.5,111.0 -6.8,114.1 -6.8,111.3 -1.5,108.3" fill="#aaa7a2" stroke="#8a8884" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-59.8,83.5 -6.8,114.1 -6.8,111.3 -59.8,80.7" fill="#cfccc6" stroke="#8a8884" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-54.5,77.7 -1.5,108.3 -6.8,111.3 -59.8,80.7" fill="#e8e4de" stroke="#8a8884" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-2.9,56.1 -7.7,58.8 -7.7,51.3 -2.9,48.6" fill="#a09d97" stroke="#827f7b" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-57.7,29.9 -7.7,58.8 -7.7,51.3 -57.7,22.4" fill="#c3bfb8" stroke="#827f7b" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-53.0,19.7 -2.9,48.6 -7.7,51.3 -57.7,22.4" fill="#dbd7d0" stroke="#827f7b" stroke-width="0.5" stroke-linejoin="round"/></g><g><polygon points="-1.8,225.4 33.6,245.8 33.6,171.0 -1.8,150.6" fill="#F7F5F1" stroke="#B9B4AA" stroke-width="0.5" stroke-linejoin="round"/><polygon points="0.9,227.3 30.3,244.3 30.3,172.9 0.9,155.9" fill="#7A5638"/><line x1="3.5" y1="211.5" x2="27.1" y2="225.1" stroke="#664629" stroke-width="0.9" stroke-linecap="round"/><line x1="3.5" y1="193.8" x2="27.1" y2="207.4" stroke="#664629" stroke-width="0.9" stroke-linecap="round"/><line x1="3.5" y1="176.1" x2="27.1" y2="189.7" stroke="#664629" stroke-width="0.9" stroke-linecap="round"/><circle cx="25.6" cy="207.9" r="2" fill="#D9C08A"/><polygon points="39.8,169.1 17.7,181.9 17.7,177.8 39.8,165.1" fill="#aca9a4" stroke="#8b8985" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-29.4,154.7 17.7,181.9 17.7,177.8 -29.4,150.6" fill="#d1cec7" stroke="#8b8985" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-7.4,137.9 39.8,165.1 17.7,177.8 -29.4,150.6" fill="#3F434A" stroke="#8b8985" stroke-width="0.5" stroke-linejoin="round"/><polygon points="32.4,256.7 -2.9,277.1 -2.9,271.0 32.4,250.6" fill="#948f86" stroke="#78746d" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-35.3,258.4 -2.9,277.1 -2.9,271.0 -35.3,252.3" fill="#b4aea3" stroke="#78746d" stroke-width="0.5" stroke-linejoin="round"/><polygon points="0.0,231.9 32.4,250.6 -2.9,271.0 -35.3,252.3" fill="#ccc5ba" stroke="#78746d" stroke-width="0.5" stroke-linejoin="round"/><g class="z" data-z="clim"><polygon points="78.0,158.9 63.3,167.4 63.3,136.8 78.0,128.3" fill="#D3D3CE" stroke="#9E9E98" stroke-width="0.5" stroke-linejoin="round"/><polygon points="22.1,143.7 63.3,167.4 63.3,136.8 22.1,113.1" fill="#ECECE8" stroke="#9E9E98" stroke-width="0.5" stroke-linejoin="round"/><polygon points="36.8,104.6 78.0,128.3 63.3,136.8 22.1,113.1" fill="#FBFBF9" stroke="#9E9E98" stroke-width="0.5" stroke-linejoin="round"/><g transform="translate(36.5,137.0) skewY(30)"><circle r="8.9" fill="#3A3F46"/><g class="fan"><path d="M0,0 Q5,-8 0,-9 Q-4,-5 0,0" fill="#8D949C" transform="rotate(0)"/><path d="M0,0 Q5,-8 0,-9 Q-4,-5 0,0" fill="#8D949C" transform="rotate(120)"/><path d="M0,0 Q5,-8 0,-9 Q-4,-5 0,0" fill="#8D949C" transform="rotate(240)"/><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.4s" repeatCount="indefinite"/></g><circle r="1.8" fill="#C9CDD2"/></g><line x1="48.3" y1="154.0" x2="48.3" y2="133.6" stroke="#B5B5AF" stroke-width="0.7" stroke-linecap="round"/><line x1="51.2" y1="155.7" x2="51.2" y2="135.3" stroke="#B5B5AF" stroke-width="0.7" stroke-linecap="round"/><line x1="54.2" y1="157.4" x2="54.2" y2="137.0" stroke="#B5B5AF" stroke-width="0.7" stroke-linecap="round"/><line x1="57.1" y1="159.1" x2="57.1" y2="138.7" stroke="#B5B5AF" stroke-width="0.7" stroke-linecap="round"/><line x1="40.6" y1="139.7" x2="26.5" y2="147.9" stroke="#8E8A84" stroke-width="1.6" stroke-linecap="round"/><line x1="73.0" y1="158.4" x2="58.9" y2="166.6" stroke="#8E8A84" stroke-width="1.6" stroke-linecap="round"/><line x1="78.0" y1="141.9" x2="82.4" y2="144.5" stroke="#E6E2DA" stroke-width="2.2" stroke-linecap="round"/></g><g><polygon points="294.4,158.1 88.3,277.1 88.3,85.0 294.4,-34.0" fill="#c7c3be" stroke="#A9A296" stroke-width="0.6" stroke-linejoin="round"/><line x1="294.7" y1="68.2" x2="88.6" y2="187.2" stroke="#C6BFB3" stroke-width="2.0" stroke-linecap="round"/><polygon points="294.6,-11.8 88.5,107.2 88.5,85.1 294.6,-33.9" fill="url(#eaveR)"/><g class="z" data-z="fenetres"><polygon points="268.2,58.0 215.2,88.6 215.2,35.9 268.2,5.3" fill="#F4F2EE" stroke="#B9B6AF" stroke-width="0.5" stroke-linejoin="round"/><polygon points="265.6,56.4 218.5,83.6 218.5,37.7 265.6,10.5" fill="url(#glassR)"/><line x1="242.3" y1="70.2" x2="242.3" y2="24.3" stroke="#F4F2EE" stroke-width="2.4" stroke-linecap="round"/><line x1="260.0" y1="20.9" x2="246.7" y2="43.9" stroke="rgba(255,255,255,.6)" stroke-width="1.5" stroke-linecap="round"/><polygon points="274.7,61.4 218.8,93.7 218.8,90.9 274.7,58.6" fill="#aaa7a2" stroke="#8a8884" stroke-width="0.5" stroke-linejoin="round"/><polygon points="213.5,90.6 218.8,93.7 218.8,90.9 213.5,87.9" fill="#cfccc6" stroke="#8a8884" stroke-width="0.5" stroke-linejoin="round"/><polygon points="269.4,55.6 274.7,58.6 218.8,90.9 213.5,87.9" fill="#e8e4de" stroke="#8a8884" stroke-width="0.5" stroke-linejoin="round"/><polygon points="272.7,7.8 219.7,38.4 219.7,30.9 272.7,0.3" fill="#a09d97" stroke="#827f7b" stroke-width="0.5" stroke-linejoin="round"/><polygon points="214.9,35.7 219.7,38.4 219.7,30.9 214.9,28.2" fill="#c3bfb8" stroke="#827f7b" stroke-width="0.5" stroke-linejoin="round"/><polygon points="267.9,-2.4 272.7,0.3 219.7,30.9 214.9,28.2" fill="#dbd7d0" stroke="#827f7b" stroke-width="0.5" stroke-linejoin="round"/><polygon points="171.1,114.1 118.1,144.7 118.1,92.0 171.1,61.4" fill="#F4F2EE" stroke="#B9B6AF" stroke-width="0.5" stroke-linejoin="round"/><polygon points="168.4,112.5 121.3,139.7 121.3,93.8 168.4,66.6" fill="url(#glassR)"/><line x1="145.2" y1="126.3" x2="145.2" y2="80.4" stroke="#F4F2EE" stroke-width="2.4" stroke-linecap="round"/><line x1="162.8" y1="77.0" x2="149.6" y2="100.0" stroke="rgba(255,255,255,.6)" stroke-width="1.5" stroke-linecap="round"/><polygon points="177.6,117.5 121.6,149.8 121.6,147.1 177.6,114.7" fill="#aaa7a2" stroke="#8a8884" stroke-width="0.5" stroke-linejoin="round"/><polygon points="116.3,146.7 121.6,149.8 121.6,147.1 116.3,144.0" fill="#cfccc6" stroke="#8a8884" stroke-width="0.5" stroke-linejoin="round"/><polygon points="172.3,111.7 177.6,114.7 121.6,147.1 116.3,144.0" fill="#e8e4de" stroke="#8a8884" stroke-width="0.5" stroke-linejoin="round"/><polygon points="175.5,63.9 122.5,94.5 122.5,87.0 175.5,56.4" fill="#a09d97" stroke="#827f7b" stroke-width="0.5" stroke-linejoin="round"/><polygon points="117.8,91.8 122.5,94.5 122.5,87.0 117.8,84.3" fill="#c3bfb8" stroke="#827f7b" stroke-width="0.5" stroke-linejoin="round"/><polygon points="170.8,53.7 175.5,56.4 122.5,87.0 117.8,84.3" fill="#dbd7d0" stroke="#827f7b" stroke-width="0.5" stroke-linejoin="round"/></g><g><polygon points="0.0,-193.8 276.8,-34.0 79.5,79.9 -197.3,-79.9" fill="#c0b8ab" stroke="#716c63" stroke-width="0.5" stroke-linejoin="round"/><g class="z" data-z="combles"><polygon points="-197.3,-79.9 79.5,79.9 79.5,62.9 -197.3,-96.9" fill="url(#woolS)" stroke="#B98A22" stroke-width="0.5" stroke-linejoin="round"/><polygon points="0.0,-210.8 276.8,-51.0 79.5,62.9 -197.3,-96.9" fill="url(#wool)" stroke="#B98A22" stroke-width="0.5" stroke-linejoin="round"/></g><g><polygon points="429.9,248.2 320.9,311.1 320.9,212.5 429.9,149.6" fill="#ccc8c2" stroke="#A9A296" stroke-width="0.5" stroke-linejoin="round"/><polygon points="185.5,232.9 320.9,311.1 320.9,212.5 185.5,134.3" fill="#e6e3dc" stroke="#A9A296" stroke-width="0.5" stroke-linejoin="round"/><polygon points="294.4,71.4 429.9,149.6 320.9,212.5 185.5,134.3" fill="#5C6068" stroke="#A9A296" stroke-width="0.5" stroke-linejoin="round"/><polygon points="436.4,149.9 320.9,216.6 320.9,209.1 436.4,142.5" fill="#aaa7a1" stroke="#8a8782" stroke-width="0.5" stroke-linejoin="round"/><polygon points="180.5,135.5 320.9,216.6 320.9,209.1 180.5,128.0" fill="#cfcbc4" stroke="#8a8782" stroke-width="0.5" stroke-linejoin="round"/><polygon points="295.9,61.4 436.4,142.5 320.9,209.1 180.5,128.0" fill="#55595F" stroke="#8a8782" stroke-width="0.5" stroke-linejoin="round"/><polygon points="185.4,233.0 320.8,311.2 320.8,301.0 185.4,222.8" fill="#B5ADA1"/><polygon points="199.9,241.6 273.5,284.1 273.5,209.3 199.9,166.8" fill="#D7D4CE" stroke="#A9A59D" stroke-width="0.6" stroke-linejoin="round"/><line x1="199.6" y1="226.8" x2="273.2" y2="269.3" stroke="#B4B0A8" stroke-width="0.9" stroke-linecap="round"/><line x1="199.6" y1="211.8" x2="273.2" y2="254.3" stroke="#B4B0A8" stroke-width="0.9" stroke-linecap="round"/><line x1="199.6" y1="196.9" x2="273.2" y2="239.4" stroke="#B4B0A8" stroke-width="0.9" stroke-linecap="round"/><line x1="199.6" y1="181.9" x2="273.2" y2="224.4" stroke="#B4B0A8" stroke-width="0.9" stroke-linecap="round"/><g class="z" data-z="borne"><polygon points="297.4,268.6 292.1,271.7 292.1,246.2 297.4,243.1" fill="#1F2227" stroke="#191b1e" stroke-width="0.5" stroke-linejoin="round"/><polygon points="278.8,264.0 292.1,271.7 292.1,246.2 278.8,238.5" fill="#2A2D33" stroke="#191b1e" stroke-width="0.5" stroke-linejoin="round"/><polygon points="284.1,235.5 297.4,243.1 292.1,246.2 278.8,238.5" fill="#3A3E46" stroke="#191b1e" stroke-width="0.5" stroke-linejoin="round"/><polygon points="281.5,254.0 288.9,258.2 288.9,249.7 281.5,245.5" fill="#3BD17A"/><path d="M285.0,264.9 Q241.4,325.1 186.1,318.2" fill="none" stroke="#1F2227" stroke-width="2.4" stroke-linecap="round"/></g><g class="z" data-z="pac"><polygon points="197.3,253.3 144.3,283.9 144.3,279.8 197.3,249.2" fill="#696661" stroke="#55524f" stroke-width="0.5" stroke-linejoin="round"/><polygon points="123.7,272.0 144.3,283.9 144.3,279.8 123.7,267.9" fill="#7f7c76" stroke="#55524f" stroke-width="0.5" stroke-linejoin="round"/><polygon points="176.7,237.3 197.3,249.2 144.3,279.8 123.7,267.9" fill="#94918b" stroke="#55524f" stroke-width="0.5" stroke-linejoin="round"/><polygon points="197.3,249.2 144.3,279.8 144.3,239.7 197.3,209.1" fill="#D6D6D1" stroke="#9E9E98" stroke-width="0.5" stroke-linejoin="round"/><polygon points="123.7,267.9 144.3,279.8 144.3,239.7 123.7,227.8" fill="#E8E8E4" stroke="#9E9E98" stroke-width="0.5" stroke-linejoin="round"/><polygon points="176.7,197.2 197.3,209.1 144.3,239.7 123.7,227.8" fill="#FAFAF8" stroke="#9E9E98" stroke-width="0.5" stroke-linejoin="round"/><g transform="translate(163.7,248.5) skewY(-30)"><circle r="13.0" fill="#3A3F46"/><circle r="11.2" fill="none" stroke="#666C74" stroke-width="1"/><g class="fan"><path d="M0,0 Q6,-10 0,-12 Q-5,-6 0,0" fill="#8D949C" transform="rotate(0)"/><path d="M0,0 Q6,-10 0,-12 Q-5,-6 0,0" fill="#8D949C" transform="rotate(120)"/><path d="M0,0 Q6,-10 0,-12 Q-5,-6 0,0" fill="#8D949C" transform="rotate(240)"/><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.1s" repeatCount="indefinite"/></g><circle r="2.2" fill="#C9CDD2"/></g><line x1="194.0" y1="245.3" x2="194.0" y2="216.4" stroke="#B5B5AF" stroke-width="0.7" stroke-linecap="round"/><line x1="191.7" y1="246.7" x2="191.7" y2="217.8" stroke="#B5B5AF" stroke-width="0.7" stroke-linecap="round"/><line x1="189.3" y1="248.0" x2="189.3" y2="219.1" stroke="#B5B5AF" stroke-width="0.7" stroke-linecap="round"/><line x1="187.0" y1="249.4" x2="187.0" y2="220.5" stroke="#B5B5AF" stroke-width="0.7" stroke-linecap="round"/><line x1="184.6" y1="250.8" x2="184.6" y2="221.9" stroke="#B5B5AF" stroke-width="0.7" stroke-linecap="round"/><line x1="170.8" y1="204.0" x2="165.2" y2="190.6" stroke="#C9C3B8" stroke-width="2.2" stroke-linecap="round"/></g><g class="z" data-z="toit"><polygon points="-2.9,-219.3 160.5,-235.4 -72.1,-101.1 -235.6,-85.0" fill="#646870" stroke="#2F333A" stroke-width="0.6" stroke-linejoin="round"/><line x1="15.2" y1="-221.1" x2="-217.4" y2="-86.8" stroke="rgba(30,33,38,.4)" stroke-width="0.7" stroke-linecap="round"/><line x1="33.4" y1="-222.9" x2="-199.2" y2="-88.6" stroke="rgba(30,33,38,.4)" stroke-width="0.7" stroke-linecap="round"/><line x1="51.5" y1="-224.7" x2="-181.1" y2="-90.4" stroke="rgba(30,33,38,.4)" stroke-width="0.7" stroke-linecap="round"/><line x1="69.7" y1="-226.5" x2="-162.9" y2="-92.2" stroke="rgba(30,33,38,.4)" stroke-width="0.7" stroke-linecap="round"/><line x1="87.8" y1="-228.3" x2="-144.8" y2="-94.0" stroke="rgba(30,33,38,.4)" stroke-width="0.7" stroke-linecap="round"/><line x1="106.0" y1="-230.1" x2="-126.6" y2="-95.8" stroke="rgba(30,33,38,.4)" stroke-width="0.7" stroke-linecap="round"/><line x1="124.2" y1="-231.9" x2="-108.5" y2="-97.6" stroke="rgba(30,33,38,.4)" stroke-width="0.7" stroke-linecap="round"/><line x1="142.3" y1="-233.7" x2="-90.3" y2="-99.4" stroke="rgba(30,33,38,.4)" stroke-width="0.7" stroke-linecap="round"/><polygon points="160.5,-235.4 323.9,-30.6 91.3,103.7 -72.1,-101.1" fill="#4B5059" stroke="#2A2E34" stroke-width="0.6" stroke-linejoin="round"/><line x1="178.6" y1="-212.7" x2="-54.0" y2="-78.4" stroke="rgba(20,22,26,.4)" stroke-width="0.7" stroke-linecap="round"/><line x1="196.8" y1="-189.9" x2="-35.8" y2="-55.6" stroke="rgba(20,22,26,.4)" stroke-width="0.7" stroke-linecap="round"/><line x1="214.9" y1="-167.2" x2="-17.7" y2="-32.9" stroke="rgba(20,22,26,.4)" stroke-width="0.7" stroke-linecap="round"/><line x1="233.1" y1="-144.4" x2="0.5" y2="-10.1" stroke="rgba(20,22,26,.4)" stroke-width="0.7" stroke-linecap="round"/><line x1="251.3" y1="-121.6" x2="18.6" y2="12.7" stroke="rgba(20,22,26,.4)" stroke-width="0.7" stroke-linecap="round"/><line x1="269.4" y1="-98.9" x2="36.8" y2="35.4" stroke="rgba(20,22,26,.4)" stroke-width="0.7" stroke-linecap="round"/><line x1="287.6" y1="-76.1" x2="55.0" y2="58.2" stroke="rgba(20,22,26,.4)" stroke-width="0.7" stroke-linecap="round"/><line x1="305.7" y1="-53.4" x2="73.1" y2="80.9" stroke="rgba(20,22,26,.4)" stroke-width="0.7" stroke-linecap="round"/><polygon points="160.5,-200.4 222.6,-122.6 186.2,-101.5 124.1,-179.4" fill="url(#pv)" stroke="#C8CDD4" stroke-width="0.9" stroke-linejoin="round"/><line x1="151.4" y1="-195.5" x2="213.5" y2="-117.6" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="142.3" y1="-190.3" x2="204.4" y2="-112.4" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="133.2" y1="-185.0" x2="195.3" y2="-107.1" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="191.5" y1="-161.8" x2="155.1" y2="-140.8" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><polygon points="121.7,-178.1 183.9,-100.2 147.5,-79.2 85.3,-157.0" fill="url(#pv)" stroke="#C8CDD4" stroke-width="0.9" stroke-linejoin="round"/><line x1="112.6" y1="-173.1" x2="174.8" y2="-95.3" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="103.5" y1="-167.9" x2="165.7" y2="-90.0" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="94.4" y1="-162.6" x2="156.6" y2="-84.8" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="152.8" y1="-139.5" x2="116.4" y2="-118.4" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><polygon points="83.0,-155.7 145.1,-77.8 108.7,-56.8 46.6,-134.7" fill="url(#pv)" stroke="#C8CDD4" stroke-width="0.9" stroke-linejoin="round"/><line x1="73.9" y1="-150.8" x2="136.0" y2="-72.9" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="64.8" y1="-145.5" x2="126.9" y2="-67.6" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="55.7" y1="-140.3" x2="117.8" y2="-62.4" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="114.0" y1="-117.1" x2="77.6" y2="-96.1" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><polygon points="44.2,-133.3 106.4,-55.4 70.0,-34.4 7.8,-112.3" fill="url(#pv)" stroke="#C8CDD4" stroke-width="0.9" stroke-linejoin="round"/><line x1="35.1" y1="-128.4" x2="97.3" y2="-50.5" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="26.0" y1="-123.2" x2="88.2" y2="-45.3" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="16.9" y1="-117.9" x2="79.1" y2="-40.0" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="75.3" y1="-94.7" x2="38.9" y2="-73.7" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><polygon points="5.5,-110.9 67.6,-33.1 31.2,-12.1 -30.9,-89.9" fill="url(#pv)" stroke="#C8CDD4" stroke-width="0.9" stroke-linejoin="round"/><line x1="-3.6" y1="-106.0" x2="58.5" y2="-28.2" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="-12.7" y1="-100.8" x2="49.4" y2="-22.9" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="-21.8" y1="-95.5" x2="40.3" y2="-17.6" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="36.5" y1="-72.3" x2="0.1" y2="-51.3" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><polygon points="225.0,-119.6 287.1,-41.7 250.7,-20.7 188.6,-98.6" fill="url(#pv)" stroke="#C8CDD4" stroke-width="0.9" stroke-linejoin="round"/><line x1="215.9" y1="-114.7" x2="278.0" y2="-36.8" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="206.8" y1="-109.4" x2="268.9" y2="-31.6" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="197.7" y1="-104.2" x2="259.8" y2="-26.3" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="256.0" y1="-81.0" x2="219.6" y2="-60.0" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><polygon points="186.2,-97.2 248.3,-19.3 211.9,1.7 149.8,-76.2" fill="url(#pv)" stroke="#C8CDD4" stroke-width="0.9" stroke-linejoin="round"/><line x1="177.1" y1="-92.3" x2="239.2" y2="-14.4" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="168.0" y1="-87.1" x2="230.1" y2="-9.2" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="158.9" y1="-81.8" x2="221.0" y2="-3.9" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="217.3" y1="-58.6" x2="180.9" y2="-37.6" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><polygon points="147.5,-74.9 209.6,3.0 173.2,24.0 111.1,-53.8" fill="url(#pv)" stroke="#C8CDD4" stroke-width="0.9" stroke-linejoin="round"/><line x1="138.4" y1="-69.9" x2="200.5" y2="7.9" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="129.3" y1="-64.7" x2="191.4" y2="13.2" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="120.2" y1="-59.4" x2="182.3" y2="18.4" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="178.5" y1="-36.3" x2="142.1" y2="-15.2" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><polygon points="108.7,-52.5 170.8,25.4 134.4,46.4 72.3,-31.5" fill="url(#pv)" stroke="#C8CDD4" stroke-width="0.9" stroke-linejoin="round"/><line x1="99.6" y1="-47.6" x2="161.7" y2="30.3" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="90.5" y1="-42.3" x2="152.6" y2="35.6" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="81.4" y1="-37.1" x2="143.5" y2="40.8" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="139.8" y1="-13.9" x2="103.4" y2="7.1" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><polygon points="70.0,-30.1 132.1,47.8 95.7,68.8 33.6,-9.1" fill="url(#pv)" stroke="#C8CDD4" stroke-width="0.9" stroke-linejoin="round"/><line x1="60.9" y1="-25.2" x2="123.0" y2="52.7" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="51.8" y1="-19.9" x2="113.9" y2="57.9" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="42.7" y1="-14.7" x2="104.8" y2="63.2" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/><line x1="101.0" y1="8.5" x2="64.6" y2="29.5" stroke="rgba(140,170,215,.35)" stroke-width="0.5" stroke-linecap="round"/></g><g><polygon points="-235.6,-85.0 -72.1,-101.1 91.3,103.7 91.3,114.6 -72.1,-87.6 -235.6,-74.1" fill="#7A6450" stroke="#4E3F31" stroke-width="0.6" stroke-linejoin="round"/><polygon points="-197.3,-96.9 -58.9,-95.2 -58.9,-85.0 -185.5,-90.1" fill="rgba(0,0,0,0)"/><g class="z" data-z="combles"><rect x="-170.6" y="-89.9" width="5" height="7" fill="#9A7A5A" stroke="#6E553D" stroke-width=".5" transform="rotate(30 -168.1 -87.9)"/><rect x="-135.3" y="-93.4" width="5" height="7" fill="#9A7A5A" stroke="#6E553D" stroke-width=".5" transform="rotate(30 -132.8 -91.4)"/><rect x="-100.0" y="-96.9" width="5" height="7" fill="#9A7A5A" stroke="#6E553D" stroke-width=".5" transform="rotate(30 -97.5 -94.9)"/><rect x="-29.3" y="-56.1" width="5" height="7" fill="#9A7A5A" stroke="#6E553D" stroke-width=".5" transform="rotate(-30 -26.8 -54.1)"/><rect x="6.0" y="-11.8" width="5" height="7" fill="#9A7A5A" stroke="#6E553D" stroke-width=".5" transform="rotate(-30 8.5 -9.8)"/><rect x="41.4" y="32.5" width="5" height="7" fill="#9A7A5A" stroke="#6E553D" stroke-width=".5" transform="rotate(-30 43.9 34.5)"/></g><g><rect x="-63.2" y="-93.9" width="8" height="8" fill="#9A7A5A" stroke="#6E553D" stroke-width=".6"/><line x1="323.9" y1="-27.2" x2="91.3" y2="107.1" stroke="#9BA0A7" stroke-width="2.2" stroke-linecap="round"/><g class="z" data-z="toit"><line x1="160.5" y1="-236.5" x2="-72.1" y2="-102.2" stroke="#2B2F35" stroke-width="2.6" stroke-linecap="round"/></g><g><ellipse cx="430.0" cy="276.8" rx="18.7" ry="9.4" fill="rgba(20,30,15,.25)"/><circle cx="427.0" cy="260.3" r="18.7" fill="url(#leaf)"/><ellipse cx="397.6" cy="298.9" rx="14.3" ry="7.1" fill="rgba(20,30,15,.25)"/><circle cx="394.6" cy="286.3" r="14.3" fill="url(#leaf)"/><ellipse cx="-306.2" cy="147.6" rx="17.0" ry="8.5" fill="rgba(20,30,15,.25)"/><circle cx="-309.2" cy="132.6" r="17.0" fill="url(#leaf)"/><ellipse cx="-11.7" cy="327.8" rx="15.3" ry="7.7" fill="rgba(20,30,15,.25)"/><circle cx="-14.7" cy="314.3" r="15.3" fill="url(#leaf)"/><ellipse cx="140.0" cy="359.5" rx="85.0" ry="37.4" fill="rgba(0,0,0,.22)"/><polygon points="220.8,329.8 100.1,399.5 100.1,379.1 220.8,309.4" fill="#C6CBD1" stroke="#8F969E" stroke-width="0.5" stroke-linejoin="round"/><polygon points="47.1,368.9 100.1,399.5 100.1,379.1 47.1,348.5" fill="#DADFE4" stroke="#8F969E" stroke-width="0.5" stroke-linejoin="round"/><polygon points="167.8,278.8 220.8,309.4 100.1,379.1 47.1,348.5" fill="#F5F7F8" stroke="#8F969E" stroke-width="0.5" stroke-linejoin="round"/><polygon points="187.9,324.4 129.0,358.4 129.0,339.7 187.9,305.7" fill="url(#glassR)" stroke="#8F969E" stroke-width="0.5" stroke-linejoin="round"/><polygon points="83.0,331.8 129.0,358.4 129.0,339.7 83.0,313.1" fill="url(#glassL)" stroke="#8F969E" stroke-width="0.5" stroke-linejoin="round"/><polygon points="141.9,279.1 187.9,305.7 129.0,339.7 83.0,313.1" fill="#F2F4F6" stroke="#8F969E" stroke-width="0.5" stroke-linejoin="round"/><polygon points="52.9,362.2 63.2,368.1 63.2,362.4 52.9,356.4" fill="#F7E6A8"/><polygon points="83.8,380.0 94.1,386.0 94.1,380.2 83.8,374.3" fill="#F7E6A8"/><g transform="translate(199.0,340.3) skewY(-30)"><circle r="9.8" fill="#1B1D21"/><circle r="4.7" fill="#9AA0A8"/></g><g transform="translate(125.4,382.8) skewY(-30)"><circle r="9.8" fill="#1B1D21"/><circle r="4.7" fill="#9AA0A8"/></g><polygon points="-316.8,156.4 -323.9,160.5 -323.9,94.2 -316.8,90.1" fill="#4f3625" stroke="#402c1e" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-331.0,156.4 -323.9,160.5 -323.9,94.2 -331.0,90.1" fill="#60422d" stroke="#402c1e" stroke-width="0.5" stroke-linejoin="round"/><polygon points="-323.9,86.0 -316.8,90.1 -323.9,94.2 -331.0,90.1" fill="#73543f" stroke="#402c1e" stroke-width="0.5" stroke-linejoin="round"/><ellipse cx="-313.9" cy="158.1" rx="39.3" ry="17.9" fill="rgba(20,30,15,.22)"/><circle cx="-323.9" cy="65.1" r="35.7" fill="url(#leaf)"/><circle cx="-350.4" cy="84.8" r="26.8" fill="url(#leaf)"/><circle cx="-300.3" cy="50.7" r="25.0" fill="url(#leaf)"/></g></g></svg>
+      </div>
+      <div class="zones" id="zones" aria-label="Parties de la maison"></div>
+    </div>
+    <div class="side">
+      <div id="intro">
+        <p class="lead">Cliquez sur une partie de la maison : vous voyez les travaux possibles et les aides disponibles aujourd'hui. Ensuite, on vous met en relation avec un professionnel vérifié.</p>
+        <p class="hint"><span class="dot" aria-hidden="true"></span>Touchez un point doré sur la maison pour commencer.</p>
+        <div class="hero-actions">
+          <a class="btn btn-sun" href="#projet">Décrire mon projet en 60 secondes →</a>
+          <a class="btn btn-line" href="tel:+33698977180">Appeler le 06 98 97 71 80</a>
+        </div>
+        <div class="trust"><span>100 % gratuit pour vous</span><span>Professionnels vérifiés</span><span>Réponse sous 24 h</span><span>Auvergne-Rhône-Alpes · Île-de-France · Nord</span></div>
+        <p class="also">Aussi : <a href="#vendre">vendre un bien</a> · <a href="#nettoyage">nettoyage professionnel</a></p>
+      </div>
+      <div id="zpanel" class="zpanel" hidden aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<!-- UNIVERS -->
+<section><div class="wrap">
+  <div class="sec-head reveal">
+    <p class="eyebrow">Nos trois univers</p>
+    <h2>Un seul contact pour trois besoins.</h2>
+  </div>
+  <div class="univers">
+    <a class="u-card reveal" href="#renovation">
+      <img src="https://images.unsplash.com/photo-1745187946672-2c1d8cf26a2b?auto=format&fit=crop&w=1000&q=80" alt="Panneaux solaires sur un toit">
+      <div class="u-body"><p class="eyebrow">Particuliers</p><h3>Travaux de la maison</h3><p>Énergie, toiture, façade, fenêtres, isolation, salle de bain, cuisine, rénovation complète.</p><span class="u-go">Découvrir →</span></div>
+    </a>
+    <a class="u-card reveal" href="#vendre">
+      <img src="https://images.unsplash.com/photo-1634586648651-f1fb9ec10d90?auto=format&fit=crop&w=1000&q=80" alt="Maison en travaux">
+      <div class="u-body"><p class="eyebrow">Propriétaires</p><h3>Vendre votre bien rapidement</h3><p>Un acheteur professionnel qui achète en l'état, sans travaux ni condition de prêt.</p><span class="u-go">Découvrir →</span></div>
+    </a>
+    <a class="u-card reveal" href="#nettoyage">
+      <img src="https://images.unsplash.com/photo-1627905646269-7f034dcc5738?auto=format&fit=crop&w=1000&q=80" alt="Nettoyage d'un bureau">
+      <div class="u-body"><p class="eyebrow">Entreprises</p><h3>Nettoyage professionnel</h3><p>Bureaux, commerces, copropriétés, fin de chantier : une équipe fiable, au bon rythme.</p><span class="u-go">Découvrir →</span></div>
+    </a>
+  </div>
+</div></section>
+
+<!-- TRANSFORMATION ÉTAPE PAR ÉTAPE -->
+<section class="band"><div class="wrap">
+  <div class="sec-head reveal">
+    <p class="eyebrow">Une maison, étape par étape</p>
+    <h2>De la maison en travaux à la maison qui produit son énergie.</h2>
+    <p class="lead">À chaque étape, un professionnel différent. Chez PartPro, vous gardez le même interlocuteur du début à la fin.</p>
+  </div>
+  <div class="journey">
+    <div class="jstep reveal">
+      <div class="ph jphoto"><img src="https://images.unsplash.com/photo-1697967464378-1498c293e1aa?auto=format&fit=crop&w=1100&q=80" alt="Pièce en travaux avec échelle et pots de peinture" loading="lazy"></div>
+      <div class="jtext"><div class="jnum">01</div><h3>La maison en travaux</h3><p>Un logement ancien, mal isolé, classé F ou G. Soit vous le vendez en l'état, soit vous lancez les travaux.</p><span class="jpro">Acheteur professionnel ou artisans</span></div>
+    </div>
+    <div class="jstep reveal">
+      <div class="ph jphoto"><img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1100&q=80" alt="Maison rénovée entourée de verdure" loading="lazy"></div>
+      <div class="jtext"><div class="jnum">02</div><h3>La maison rénovée</h3><p>Toiture, isolation, fenêtres, chauffage, salle de bain : le logement gagne en confort, en classes au DPE, et prend de la valeur.</p><span class="jpro">Artisans vérifiés · Nettoyage de fin de chantier</span></div>
+    </div>
+    <div class="jstep reveal">
+      <div class="ph jphoto"><img src="https://images.unsplash.com/photo-1770567764570-ebe9b5d0c02b?auto=format&fit=crop&w=1100&q=80" alt="Maison avec panneaux solaires sur le toit" loading="lazy"></div>
+      <div class="jtext"><div class="jnum">03</div><h3>Les panneaux solaires</h3><p>La maison produit sa propre électricité. Avec une batterie virtuelle, rien n'est perdu.</p><span class="jpro">Installateur solaire RGE</span></div>
+    </div>
+    <div class="jstep reveal">
+      <div class="ph jphoto"><img src="https://images.unsplash.com/photo-1766507680004-1c71007aefe5?auto=format&fit=crop&w=1100&q=80" alt="Borne de recharge pour voiture électrique fixée au mur" loading="lazy"></div>
+      <div class="jtext"><div class="jnum">04</div><h3>La borne de recharge</h3><p>La voiture se recharge à la maison, avec l'électricité produite sur le toit.</p><span class="jpro">Électricien qualifié</span></div>
+    </div>
+    <div class="jstep reveal">
+      <div class="ph jphoto"><img src="https://images.unsplash.com/photo-1757219525975-03b5984bc6e8?auto=format&fit=crop&w=1100&q=80" alt="Unité de climatisation fixée au mur" loading="lazy"></div>
+      <div class="jtext"><div class="jnum">05</div><h3>La climatisation réversible</h3><p>Chaud l'hiver, frais l'été, alimentée en partie par le soleil. La maison est confortable toute l'année.</p><span class="jpro">Installateur RGE</span></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- AVIS CLIENTS -->
+<section id="avis" class="band"><div class="wrap">
+  <div class="sec-head reveal">
+    <p class="eyebrow">Avis clients</p>
+    <h2>Ils nous ont fait confiance.</h2>
+  </div>
+  <div class="reviews">
+    <article class="review reveal">
+      <div class="qm" aria-hidden="true">“</div>
+      <span class="tag">Batterie virtuelle</span>
+      <h3>Produire et stocker son électricité</h3>
+      <p>Christophe voulait mieux profiter de son électricité solaire. Nous l'avons mis en relation avec une entreprise sérieuse, qui lui a installé un système de batterie virtuelle.</p>
+      <div class="who"><span class="av">C</span><div><b>Christophe C.</b><small>Ain (01)</small></div></div>
+    </article>
+    <article class="review reveal">
+      <div class="qm" aria-hidden="true">“</div>
+      <span class="tag">Remise en service + extension</span>
+      <h3>Une ancienne installation qui repart</h3>
+      <p>Son installation solaire ne fonctionnait plus. Nous lui avons trouvé une entreprise qui l'a remise en route, puis a ajouté des panneaux et un stockage virtuel pour couvrir toute sa consommation.</p>
+      <div class="who"><span class="av">G</span><div><b>Mme G.</b><small>Particulier</small></div></div>
+    </article>
+    <article class="review reveal">
+      <div class="qm" aria-hidden="true">“</div>
+      <span class="tag">Nettoyage de bureaux</span>
+      <h3>Des locaux propres chaque matin</h3>
+      <p>Un bureau de commerciaux cherchait une agence de nettoyage fiable. Grâce à la mise en relation, leurs locaux sont nettoyés chaque matin avant l'arrivée des équipes.</p>
+      <div class="who"><span class="av">B</span><div><b>Bureau de commerciaux</b><small>Entreprise</small></div></div>
+    </article>
+  </div>
+</div></section>
+
+<!-- RENOVATION -->
+<section id="renovation" class="band"><div class="wrap">
+  <div class="sec-head reveal">
+    <p class="eyebrow">Tous travaux de l'habitat</p>
+    <h2>Toute la maison, avec des pros de confiance.</h2>
+    <p class="lead">Pour l'énergie, des professionnels certifiés RGE qui connaissent les aides. Pour le reste de la maison, des artisans assurés et vérifiés. Pas de vente forcée, et vous restez libre de votre choix.</p>
+  </div>
+
+  <div class="fam" id="energie">
+  <div class="fam-head reveal"><span class="n">01</span><h3>Énergie</h3><span>Produire, chauffer, rafraîchir, financer</span></div>
+  <div class="services">
+    <article class="svc reveal"><div class="ph"><img src="https://images.unsplash.com/photo-1745187946672-2c1d8cf26a2b?auto=format&fit=crop&w=800&q=80" alt="Panneaux solaires installés sur une toiture" loading="lazy"></div><div class="t"><h3>Panneaux solaires</h3><p>Produire votre électricité, avec une installation adaptée à votre vraie consommation.</p></div></article>
+    <article class="svc reveal"><div class="ph"><img src="https://images.unsplash.com/photo-1776860150305-108ed577d7d4?auto=format&fit=crop&w=800&q=80" alt="Pompe à chaleur installée à l'extérieur d'une maison" loading="lazy"></div><div class="t"><h3>Pompe à chaleur</h3><p>Remplacer une vieille chaudière par un installateur RGE qui maîtrise les aides.</p></div></article>
+    <article class="svc reveal"><div class="ph"><img src="https://images.unsplash.com/photo-1757219525975-03b5984bc6e8?auto=format&fit=crop&w=800&q=80" alt="Unité de climatisation murale" loading="lazy"></div><div class="t"><h3>Climatisation réversible</h3><p>Chaud l'hiver, frais l'été, dimensionnée pour votre logement.</p></div></article>
+    <article class="svc reveal"><div class="ph"><img src="https://images.unsplash.com/photo-1704475187766-058b6f7b7929?auto=format&fit=crop&w=800&q=80" alt="Voiture électrique branchée sur une borne murale" loading="lazy"></div><div class="t"><h3>Borne de recharge</h3><p>Recharger votre voiture électrique à la maison, en toute sécurité.</p></div></article>
+    <article class="svc reveal"><div class="ph"><img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80" alt="Technicien réalisant une installation" loading="lazy"></div><div class="t"><h3>Remise en service</h3><p>Une ancienne installation qui ne fonctionne plus ? On trouve l'entreprise qui la relance.</p></div></article>
+    <article class="svc reveal"><div class="ph"><img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80" alt="Personne étudiant ses documents financiers" loading="lazy"></div><div class="t"><h3>Regroupement de crédit</h3><p>Alléger vos mensualités si votre installation est financée à crédit. Sans engagement.</p></div></article>
+  </div>
+  <div class="villes reveal">
+    <p class="eyebrow">Près de chez vous</p>
+    <div class="villes-links">
+      <a href="/pompe-a-chaleur-lyon/">Pompe à chaleur à Lyon</a>
+      <a href="/panneaux-solaires-lyon/">Panneaux solaires à Lyon</a>
+      <a href="/climatisation-reversible-lyon/">Climatisation à Lyon</a>
+      <a href="/pompe-a-chaleur-saint-etienne/">Pompe à chaleur à Saint-Étienne</a>
+      <a href="/panneaux-solaires-saint-etienne/">Panneaux solaires à Saint-Étienne</a>
+      <a href="/pompe-a-chaleur-grenoble/">Pompe à chaleur à Grenoble</a>
+      <a href="/panneaux-solaires-grenoble/">Panneaux solaires à Grenoble</a>
+      <a href="/renovation-energetique-auvergne-rhone-alpes/">Toute la région</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="fam" id="maison">
+    <div class="fam-head reveal"><span class="n">02</span><h3>La maison</h3><span>Extérieur, intérieur, rénovation complète</span></div>
+    <div class="services s4">
+      <article class="svc reveal"><div class="ph"><img src="https://images.unsplash.com/photo-1760371910912-6966b90c1ff4?auto=format&fit=crop&w=800&q=80" alt="Façade avec des fenêtres et des volets" loading="lazy"></div><div class="t"><span class="kind">Extérieur</span><h3>Fenêtres et volets</h3><p>Double vitrage, volets roulants, porte d'entrée : moins de bruit, moins de froid, et une façade qui a du cachet.</p></div></article>
+      <article class="svc reveal"><div class="ph"><img src="https://images.unsplash.com/photo-1607400201889-565b1ee75f8e?auto=format&fit=crop&w=800&q=80" alt="Artisan posant de l'isolant dans un mur" loading="lazy"></div><div class="t"><span class="kind">Intérieur</span><h3>Isolation</h3><p>Combles, murs, planchers : une maison plus chaude l'hiver, plus fraîche l'été, et des factures qui baissent.</p></div></article>
+      <article class="svc reveal"><div class="ph"><img src="https://images.unsplash.com/photo-1763485956295-319fd86f2a46?auto=format&fit=crop&w=800&q=80" alt="Douche de plain-pied avec banc dans une salle de bain rénovée" loading="lazy"></div><div class="t"><span class="kind">Intérieur</span><h3>Salle de bain et douche senior</h3><p>Baignoire remplacée par une douche de plain-pied, avec siège et barre d'appui : on reste chez soi en toute sécurité.</p><span class="hint">Aides à l'adaptation possibles selon votre situation</span></div></article>
+      <article class="svc reveal"><div class="ph"><img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=80" alt="Salon lumineux après une rénovation complète" loading="lazy"></div><div class="t"><span class="kind">Gros projet</span><h3>Rénovation complète</h3><p>Une maison ou un appartement à refaire : les bons artisans, coordonnés du début à la fin, avec un seul interlocuteur.</p></div></article>
+    </div>
+  </div>
+
+  <div class="all-cta reveal">
+    <p>Votre projet n'est pas dans la liste ?<span>Décrivez-le quand même : si ça touche à la maison, on trouve le bon pro.</span></p>
+    <a class="btn btn-sun" href="#projet" data-pick="renovation">Décrire mon projet →</a>
+  </div>
+</div></section>
+
+<!-- VENDRE -->
+<section id="vendre" class="band"><div class="wrap split">
+  <div class="ph reveal"><img src="https://images.unsplash.com/photo-1634586648651-f1fb9ec10d90?auto=format&fit=crop&w=1100&q=80" alt="Pièce en travaux avec des outils" loading="lazy"></div>
+  <div class="reveal">
+    <p class="eyebrow">Vendre votre bien</p>
+    <h2 style="margin-top:14px">Votre bien demande des travaux ? Un acheteur pro le prend en l'état.</h2>
+    <p class="lead" style="margin-top:20px">Succession, déménagement, logement mal classé au DPE, besoin de vendre vite : on vous présente un acheteur professionnel sérieux de la région, habitué à ce type de bien.</p>
+    <ul class="list">
+      <li><div><b>Achat en l'état</b><span>Pas de travaux à faire avant de vendre, même avec un DPE F ou G.</span></div></li>
+      <li><div><b>Rapide</b><span>Pas de condition de prêt bancaire, pas de visites à répétition.</span></div></li>
+      <li><div><b>Vous décidez</b><span>Nous faisons la présentation. Le prix et la vente restent entre vous et l'acheteur.</span></div></li>
+    </ul>
+    <p class="note"><b>Exemple de situation :</b> une maison héritée, classée G, que la famille veut vendre sans lancer de travaux. PartPro met les propriétaires en relation avec un acheteur professionnel qui achète en l'état.</p>
+  </div>
+</div></section>
+
+<!-- NETTOYAGE -->
+<section id="nettoyage" class="band"><div class="wrap split">
+  <div class="reveal">
+    <p class="eyebrow">Nettoyage professionnel</p>
+    <h2 style="margin-top:14px">Des locaux propres chaque matin, sans y penser.</h2>
+    <p class="lead" style="margin-top:20px">On vous met en relation avec une entreprise de nettoyage fiable, à la fréquence qui vous convient.</p>
+    <ul class="list">
+      <li><div><b>Bureaux et commerces</b><span>Entretien quotidien ou hebdomadaire, tôt le matin ou après la fermeture.</span></div></li>
+      <li><div><b>Copropriétés</b><span>Parties communes, halls, escaliers, local poubelles.</span></div></li>
+      <li><div><b>Fin de chantier</b><span>Remise au propre après travaux, avant une vente ou une location.</span></div></li>
+    </ul>
+  </div>
+  <div class="ph reveal"><img src="https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&w=1100&q=80" alt="Bureaux en open space propres" loading="lazy"></div>
+</div></section>
+
+<!-- QUI JE SUIS -->
+<section id="geroud" class="band"><div class="wrap me">
+  <div class="me-name reveal">Géroud<span>Fondateur de PartPro</span></div>
+  <div class="me-text reveal">
+    <p class="quote">« Ce que j'aime, c'est la relation humaine : aider les gens à améliorer leur quotidien, qu'ils soient particuliers ou professionnels. »</p>
+    <ol class="timeline">
+      <li><b>Le terrain</b><span>3 ans de porte-à-porte comme ambassadeur de marque. J'y ai appris l'écoute et la confiance.</span></li>
+      <li><b>Les énergies renouvelables</b><span>2 ans comme commercial, à accompagner des particuliers dans la rénovation de leur logement.</span></li>
+      <li><b>Aujourd'hui · PartPro</b><span>J'aide mes clients à trouver la bonne entreprise pour leur projet, comme je le ferais pour un proche.</span></li>
+    </ol>
+    <div class="values"><span>Relation client</span><span>Entraide</span><span>Humain</span></div>
+  </div>
+</div></section>
+
+<!-- ÉCOSYSTÈME -->
+<section class="band"><div class="wrap">
+  <div class="sec-head reveal">
+    <p class="eyebrow">L'écosystème PartPro</p>
+    <h2>Un réseau, pas un simple annuaire.</h2>
+    <p class="lead">Nos trois univers se suivent naturellement. Un même projet peut passer par les trois, avec un seul interlocuteur.</p>
+  </div>
+  <div class="chain reveal">
+    <div class="link"><div class="n">1</div><h3>Vente du bien</h3><p>Un propriétaire vend son logement à un acheteur professionnel, en l'état.</p></div>
+    <div class="link"><div class="n">2</div><h3>Rénovation</h3><p>L'acheteur rénove avec des artisans vérifiés : toiture, isolation, fenêtres, salle de bain, chauffage, solaire.</p></div>
+    <div class="link"><div class="n">3</div><h3>Nettoyage de fin de chantier</h3><p>Le logement est remis au propre avant d'être revendu ou loué.</p></div>
+  </div>
+</div></section>
+
+<!-- COMMENT ÇA MARCHE -->
+<section class="band"><div class="wrap">
+  <div class="sec-head reveal"><p class="eyebrow">Comment ça marche</p><h2>Trois étapes, et c'est tout.</h2></div>
+  <div class="steps">
+    <div class="step reveal"><div class="n">1</div><h3>Vous décrivez votre besoin</h3><p>En 60 secondes sur le site, ou par téléphone.</p></div>
+    <div class="step reveal"><div class="n">2</div><h3>On vous rappelle</h3><p>Un court appel pour bien comprendre votre projet et vos attentes.</p></div>
+    <div class="step reveal"><div class="n">3</div><h3>On vous met en relation</h3><p>Avec le professionnel adapté, sérieux et vérifié. Vous restez libre de votre choix.</p></div>
+  </div>
+</div></section>
+
+<!-- PROS -->
+<section id="pros" style="padding-top:0"><div class="wrap">
+  <div class="pros reveal">
+    <div class="pros-head">
+      <p class="eyebrow">Vous êtes un professionnel ?</p>
+      <h2>On remplit votre agenda. <em>Vous faites les chantiers.</em></h2>
+      <p class="lead">On s'occupe de la partie la plus longue : trouver les clients, les appeler, comprendre leur projet. Vous choisissez comment vous les recevez.</p>
+    </div>
+
+    <div class="offers">
+      <article class="offer">
+        <span class="lbl">Formule 1</span>
+        <h3>Le projet qualifié, prêt à chiffrer</h3>
+        <p>On contacte les prospects à votre place et on construit le projet avec eux. Vous recevez le dossier une fois le projet établi.</p>
+        <div class="flow" aria-hidden="true">
+          <div><i>1</i>Prospect trouvé</div>
+          <div><i>2</i>Appel et qualification</div>
+          <div><i>3</i>Projet établi</div>
+          <div><i>✓</i>Transmis chez vous</div>
+        </div>
+        <ul class="list">
+          <li><div><b>Besoin, budget, délai</b><span>Tout est vérifié avant de vous passer le contact.</span></div></li>
+          <li><div><b>Fini les fiches froides</b><span>Le client sait qui va l'appeler et pourquoi.</span></div></li>
+        </ul>
+        <a class="btn btn-line" href="#projet" data-pick="pro" data-formule="Projets qualifiés transmis">Choisir cette formule →</a>
+      </article>
+
+      <article class="offer hl">
+        <span class="lbl">Formule 2</span>
+        <h3>Le RDV posé directement dans votre agenda</h3>
+        <p>On appelle le prospect, on qualifie son projet et on cale le rendez-vous sur vos créneaux. Vous n'avez plus qu'à vous déplacer.</p>
+        <div class="agenda" aria-hidden="true">
+          <div class="agenda-top"><b>Votre semaine</b><span>Exemple</span></div>
+          <div class="agenda-grid">
+            <span class="d">Lun</span><span class="d">Mar</span><span class="d">Mer</span><span class="d">Jeu</span><span class="d">Ven</span>
+            <span class="s busy"></span><span class="s"></span><span class="s busy"></span><span class="s"></span><span class="s busy"></span>
+            <span class="s"></span><span class="s rdv"></span><span class="s"></span><span class="s busy"></span><span class="s"></span>
+            <span class="s busy"></span><span class="s"></span><span class="s"></span><span class="s rdv"></span><span class="s"></span>
+          </div>
+          <div class="agenda-rdv"><i>✓</i><div><b>Nouveau RDV · Mardi 14 h</b><span>Projet qualifié, client prévenu de votre visite</span></div></div>
+        </div>
+        <ul class="list">
+          <li><div><b>Zéro appel à passer</b><span>Le rendez-vous arrive confirmé dans votre agenda.</span></div></li>
+          <li><div><b>Vos créneaux, vos secteurs</b><span>On ne place que là où vous voulez aller.</span></div></li>
+        </ul>
+        <a class="btn btn-sun" href="#projet" data-pick="pro" data-formule="RDV posés dans mon agenda">Choisir cette formule →</a>
+      </article>
+    </div>
+
+    <div class="pro-strip">
+      <div><strong>0 €</strong><span>d'abonnement, rien à avancer</span></div>
+      <div><strong>Commission</strong><span>uniquement sur les affaires signées</span></div>
+      <div><strong>Votre zone</strong><span>Auvergne-Rhône-Alpes, Île-de-France, Nord</span></div>
+    </div>
+
+    <div class="metiers"><b>On travaille avec :</b><span>Artisans RGE</span><span>Couvreurs</span><span>Menuisiers</span><span>Plombiers</span><span>Électriciens</span><span>Salle de bain</span><span>Cuisinistes</span><span>Entreprises générales</span><span>Nettoyage</span><span>Marchands de biens</span></div>
+
+    <div class="pro-end">
+      <a class="btn btn-sun" href="#projet" data-pick="pro">Devenir partenaire →</a>
+      <a class="btn btn-line" href="tel:+33698977180">En parler au 06 98 97 71 80</a>
+    </div>
+  </div>
+</div></section>
+
+<!-- BLOG -->
+<section class="band"><div class="wrap">
+  <div class="pro-box reveal">
+    <div style="display:grid;gap:14px">
+      <p class="eyebrow">Le blog PartPro</p>
+      <h2 style="font-size:clamp(1.8rem,4vw,2.9rem)">Aides, prix, bonnes pratiques : nos conseils avant de vous lancer.</h2>
+      <p class="lead">Des articles simples sur le solaire, la pompe à chaleur, la rénovation et la vente d'un bien.</p>
+      <!-- BLOG-LATEST:start --><ul style="list-style:none;margin:6px 0 0;padding:0;display:grid;gap:8px"><li><a href="/blog/prime-autoconsommation-supprimee-aides-solaire/" style="color:var(--ink);text-decoration:none;font-weight:600">Prime à l&#x27;autoconsommation supprimée : quelles aides pour le solaire ?</a> <span style="color:var(--sun)">→</span></li><li><a href="/blog/maprimerenov-2026-pompe-a-chaleur-par-geste/" style="color:var(--ink);text-decoration:none;font-weight:600">MaPrimeRénov&#x27; 2026 : la pompe à chaleur, dernier geste encore aidé</a> <span style="color:var(--sun)">→</span></li><li><a href="/blog/douche-senior-prix-aides-maprimeadapt/" style="color:var(--ink);text-decoration:none;font-weight:600">Douche senior : prix, aides MaPrimeAdapt&#x27; et bonnes questions</a> <span style="color:var(--sun)">→</span></li></ul><!-- BLOG-LATEST:end -->
+    </div>
+    <a class="btn btn-line" href="/blog/">Lire le blog →</a>
+  </div>
+</div></section>
+
+<!-- FAQ -->
+<section id="faq" class="band"><div class="wrap">
+  <div class="sec-head reveal"><p class="eyebrow">Questions fréquentes</p><h2>Vous vous demandez sûrement…</h2></div>
+  <div class="faq reveal">
+    <details><summary>C'est vraiment gratuit pour moi ?</summary><p>Oui. La mise en relation est 100 % gratuite pour vous, sans engagement.</p></details>
+    <details><summary>Alors comment PartPro est payé ?</summary><p>Par une commission versée par le professionnel partenaire, uniquement quand une affaire est conclue. C'est pour ça qu'on a intérêt à vous orienter vers des pros qui font du bon travail.</p></details>
+    <details><summary>Quels travaux couvrez-vous ?</summary><p>Tout ce qui touche à l'habitat : énergie (solaire, pompe à chaleur, climatisation, borne de recharge), toiture, façade, fenêtres et volets, isolation, salle de bain, cuisine, plomberie, électricité, peinture et sols, jusqu'à la rénovation complète ou l'extension. Votre projet n'est pas listé ? Décrivez-le, on cherche le bon pro.</p></details>
+    <details><summary>Comment choisissez-vous les professionnels ?</summary><p>On travaille avec des entreprises que l'on connaît : assurances à jour, certifications quand elles sont nécessaires (RGE pour la rénovation énergétique), sérieux, avis clients et qualité du suivi.</p></details>
+    <details><summary>Dans quelle zone intervenez-vous ?</summary><p>En priorité en Auvergne-Rhône-Alpes, autour de Lyon. Nous accompagnons aussi des projets en Île-de-France et dans le Nord de la France.</p></details>
+    <details><summary>Je vends mon bien : est-ce que vous le vendez à ma place ?</summary><p>Non. Nous vous présentons un acheteur professionnel, et vous restez seul décisionnaire du prix et de la vente.</p></details>
+    <details><summary>Est-ce que je serai démarché par plusieurs entreprises ?</summary><p>Non. Vos coordonnées ne sont transmises qu'au professionnel retenu, avec votre accord.</p></details>
+  </div>
+</div></section>
+
+<!-- PARCOURS 60 SECONDES -->
+<section id="projet" class="band"><div class="wrap form-wrap">
+  <div>
+    <p class="eyebrow">Votre projet</p>
+    <h2 style="margin-top:14px">60 secondes pour être bien accompagné.</h2>
+    <p class="lead" style="margin-top:18px">Répondez à quelques questions, on vous rappelle sous 24 h.</p>
+    <div class="side-points">
+      <div><strong>0 €</strong><span>pour vous, sans engagement</span></div>
+      <div><strong>24 h</strong><span>pour vous rappeler</span></div>
+      <div><strong>1</strong><span>seul interlocuteur</span></div>
+    </div>
+  </div>
+
+  <div class="quiz" aria-live="polite">
+    <div class="progress" aria-hidden="true"><i class="on"></i><i></i><i></i></div>
+    <p class="steplabel" id="steplabel">Étape 1 sur 3 · Votre projet</p>
+
+    <div id="s1">
+      <p class="q-title">Quel est votre projet ?</p>
+      <div class="choices">
+        <button type="button" class="choice" data-u="renovation"><span class="ic">☀</span><span><b>Travaux de la maison</b><small>Énergie, toiture, fenêtres, isolation, salle de bain, rénovation…</small></span></button>
+        <button type="button" class="choice" data-u="vente"><span class="ic">⌂</span><span><b>Vendre un bien</b><small>Maison, appartement, immeuble, terrain</small></span></button>
+        <button type="button" class="choice" data-u="nettoyage"><span class="ic">✦</span><span><b>Nettoyage professionnel</b><small>Bureaux, commerce, copropriété, chantier</small></span></button>
+        <button type="button" class="choice" data-u="pro"><span class="ic">◆</span><span><b>Je suis un professionnel</b><small>Devenir partenaire PartPro</small></span></button>
+      </div>
+    </div>
+
+    <div id="s2" hidden>
+      <p class="q-title" id="s2-title">Précisez votre besoin</p>
+      <div class="fields" id="s2-fields"></div>
+      <p class="err" id="err2"></p>
+      <div class="q-nav"><button type="button" class="back" data-back="1">← Retour</button><button type="button" class="btn btn-sun" id="next2">Continuer →</button></div>
+    </div>
+
+    <form id="s3" hidden novalidate>
+      <p class="q-title">Où peut-on vous rappeler ?</p>
+      <div class="fields">
+        <label class="f">Prénom<input id="prenom" name="Prénom" autocomplete="given-name" required></label>
+        <label class="f">Nom<input id="nom" name="Nom" autocomplete="family-name" required></label>
+        <label class="f">Téléphone<input id="tel" name="Téléphone" type="tel" autocomplete="tel" required></label>
+        <label class="f">Email (facultatif)<input id="email" name="Email" type="email" autocomplete="email"></label>
+        <label class="f full">Code postal<input id="cp" name="Code postal" inputmode="numeric" maxlength="5" required></label>
+        <label class="consent full"><input type="checkbox" id="rgpd" required><span>J'accepte que PartPro utilise ces informations pour me recontacter au sujet de ma demande. Elles ne sont transmises qu'au professionnel retenu, avec mon accord. <a href="confidentialite.html" style="color:var(--sun)">En savoir plus</a></span></label>
+      </div>
+      <p class="f-reassure">Gratuit pour vous : ce sont les professionnels qui rémunèrent PartPro, uniquement quand les travaux sont faits.</p>
+      <p class="err" id="err3"></p>
+      <div class="q-nav"><button type="button" class="back" data-back="2">← Retour</button><button type="submit" class="btn btn-sun">Envoyer ma demande</button></div>
+    </form>
+
+    <div id="s4" class="done" hidden>
+      <div class="big">✓</div>
+      <p class="q-title" style="margin:0">Merci, c'est bien reçu !</p>
+      <p style="color:var(--mute)">Nous vous rappelons sous 24 h. En attendant, vous pouvez nous joindre au 06 98 97 71 80.</p>
+    </div>
+  </div>
+</div></section>
+
+</main>
+
+<footer><div class="wrap foot">
+  <div><b>Part<span style="color:var(--sun)">Pro</span></b><p>La mise en relation de confiance entre particuliers, entreprises et professionnels qualifiés de l'habitat. En priorité en Auvergne-Rhône-Alpes, aussi en Île-de-France et dans le Nord.</p></div>
+  <div><b>Contact</b><ul><li>06 98 97 71 80</li><li>conseil@partpro.fr</li><li>Lyon, Auvergne-Rhône-Alpes</li></ul></div>
+  <div><b>Informations</b><ul><li><a href="/blog/">Blog</a></li><li><a href="mentions-legales.html">Mentions légales</a></li><li><a href="confidentialite.html">Vos données (RGPD)</a></li><li>SIREN 922 488 531</li></ul></div>
+  <div><b>Près de chez vous</b><ul><li><a href="/pompe-a-chaleur-lyon/">Pompe à chaleur Lyon</a></li><li><a href="/panneaux-solaires-lyon/">Panneaux solaires Lyon</a></li><li><a href="/climatisation-reversible-lyon/">Climatisation Lyon</a></li><li><a href="/pompe-a-chaleur-saint-etienne/">Pompe à chaleur Saint-Étienne</a></li><li><a href="/panneaux-solaires-saint-etienne/">Panneaux solaires Saint-Étienne</a></li><li><a href="/pompe-a-chaleur-grenoble/">Pompe à chaleur Grenoble</a></li><li><a href="/panneaux-solaires-grenoble/">Panneaux solaires Grenoble</a></li></ul></div>
+</div></footer>
+<form name="lead-accueil" data-netlify="true" hidden><textarea name="details"></textarea><input name="telephone"><input name="code_postal"></form>
+
+<a class="wa" href="https://wa.me/33698977180" target="_blank" rel="noopener" aria-label="Écrire sur WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.9-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>
+  <span>WhatsApp</span>
+</a>
+
+<script>
+(function(){
+  /* Header opaque au défilement */
+  var hdr = document.getElementById('hdr');
+  function onScroll(){ hdr.classList.toggle('solid', window.scrollY > 40); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  /* Apparition douce au défilement */
+  if('IntersectionObserver' in window){
+    document.documentElement.classList.add('js');
+    var els = document.querySelectorAll('.reveal');
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.remove('pending'); io.unobserve(e.target); } });
+    }, {rootMargin:'0px 0px -8% 0px'});
+    els.forEach(function(el){
+      var r = el.getBoundingClientRect();
+      if(r.top > window.innerHeight){ el.classList.add('pending'); io.observe(el); }
+    });
+  }
+
+  /* Parcours 60 secondes */
+  var FORMSPREE = "https://formspree.io/f/xkoadead";
+  var LIVE = /(^|\.)partpro\.fr$/.test(location.hostname) || location.hostname === "partpro.netlify.app";
+  var data = {};
+  var steps = [document.getElementById('s1'),document.getElementById('s2'),document.getElementById('s3'),document.getElementById('s4')];
+  var bars = document.querySelectorAll('.progress i');
+  var configs = {
+    renovation:{title:"Votre projet de travaux",fields:[
+      {id:"r_type",label:"Type de projet",type:"select",groups:[
+        {label:"Énergie",options:["Panneaux solaires","Pompe à chaleur","Climatisation réversible","Borne de recharge","Remise en service d'une installation","Regroupement de crédit"]},
+        {label:"Extérieur",options:["Toiture et charpente","Façade et ravalement","Fenêtres et volets","Portail, clôture, terrasse"]},
+        {label:"Intérieur",options:["Isolation","Salle de bain / douche senior","Cuisine","Plomberie","Électricité","Peinture et sols"]},
+        {label:"Gros projets",options:["Rénovation complète","Extension / véranda","Aménagement de combles"]},
+        {label:"Autre",options:["Autre projet pour la maison"]}]},
+      {id:"r_statut",label:"Vous êtes",type:"select",options:["Propriétaire","Locataire","Copropriété / syndic"]},
+      {id:"r_logement",label:"Logement",type:"select",options:["Maison","Appartement"]},
+      {id:"r_chauffage",label:"Chauffage actuel",type:"select",optional:true,options:["Gaz","Fioul","Électrique","Bois / granulés","Pompe à chaleur","Je ne sais pas"]},
+      {id:"r_facture",label:"Facture d'énergie par mois",type:"select",optional:true,options:["Moins de 100 €","100 à 200 €","200 à 300 €","Plus de 300 €"]},
+      {id:"r_desc",label:"Décrivez votre projet (facultatif)",type:"textarea",full:true,optional:true}]},
+    vente:{title:"Le bien que vous vendez",fields:[
+      {id:"v_type",label:"Type de bien",type:"select",options:["Maison","Appartement","Immeuble","Terrain"]},
+      {id:"v_ville",label:"Ville",type:"text"},
+      {id:"v_delai",label:"Vous souhaitez vendre",type:"select",options:["Le plus vite possible","Dans les 3 mois","Dans les 6 mois","Je me renseigne"]},
+      {id:"v_etat",label:"État du bien",type:"select",options:["Travaux importants","Quelques travaux","Bon état"]},
+      {id:"v_desc",label:"Ce qu'on doit savoir (facultatif)",type:"textarea",full:true,optional:true}]},
+    nettoyage:{title:"Vos locaux à entretenir",fields:[
+      {id:"n_type",label:"Type de locaux",type:"select",options:["Bureaux","Commerce","Copropriété","Fin de chantier","Autre"]},
+      {id:"n_freq",label:"Fréquence",type:"select",options:["Tous les jours","Plusieurs fois par semaine","Une fois par semaine","Ponctuel"]},
+      {id:"n_surface",label:"Surface approximative (m²)",type:"text",optional:true},
+      {id:"n_entreprise",label:"Nom de votre entreprise",type:"text",optional:true}]},
+    pro:{title:"Votre activité",fields:[
+      {id:"p_metier",label:"Votre métier",type:"select",options:["Artisan RGE (solaire, PAC, clim, isolation, borne)","Couvreur / façadier","Menuisier (fenêtres, volets, portes)","Salle de bain / plomberie","Électricien","Cuisiniste","Entreprise générale / rénovation complète","Entreprise de nettoyage","Marchand de biens","Autre"]},
+      {id:"p_formule",label:"Formule qui vous intéresse",type:"select",options:["Projets qualifiés transmis","RDV posés dans mon agenda","Les deux, à discuter"]},
+      {id:"p_entreprise",label:"Nom de l'entreprise",type:"text"},
+      {id:"p_zone",label:"Zone d'intervention",type:"text"}]}
+  };
+  var labels = {renovation:"Travaux de la maison",vente:"Vendre un bien",nettoyage:"Nettoyage professionnel",pro:"Devenir partenaire"};
+  var stepNames=['Votre projet','Votre besoin','Vos coordonnées'];
+  function show(i){ var sl=document.getElementById('steplabel'); if(sl){ sl.hidden=(i>2); if(i<=2) sl.textContent='Étape '+(i+1)+' sur 3 · '+stepNames[i]; } steps.forEach(function(s,k){ s.hidden=(k!==i); }); bars.forEach(function(b,k){ b.classList.toggle('on', k<=Math.min(i,2)); }); }
+  function buildStep2(u){
+    var c = configs[u], box = document.getElementById('s2-fields');
+    document.getElementById('s2-title').textContent = c.title; box.innerHTML = "";
+    c.fields.forEach(function(f){
+      var l=document.createElement('label'); l.className='f'+(f.full?' full':''); l.textContent=f.label; var el;
+      if(f.type==="select"){ el=document.createElement('select'); var o0=document.createElement('option'); o0.value=""; o0.textContent="Choisir…"; el.appendChild(o0);
+        var addOpts=function(parent,list){ list.forEach(function(o){ var op=document.createElement('option'); op.textContent=o; parent.appendChild(op); }); };
+        if(f.groups){ f.groups.forEach(function(g){ var og=document.createElement('optgroup'); og.label=g.label; addOpts(og,g.options); el.appendChild(og); }); } else { addOpts(el,f.options); } }
+      else if(f.type==="textarea"){ el=document.createElement('textarea'); }
+      else { el=document.createElement('input'); el.type='text'; }
+      el.id=f.id; el.name=f.label; if(!f.optional) el.required=true; if(data[f.id]) el.value=data[f.id];
+      l.appendChild(el); box.appendChild(l);
+    });
+  }
+  document.querySelectorAll('.choice').forEach(function(b){
+    b.addEventListener('click', function(){
+      document.querySelectorAll('.choice').forEach(function(x){ x.classList.remove('sel'); });
+      b.classList.add('sel'); data.univers=b.dataset.u; buildStep2(b.dataset.u); show(1);
+    });
+  });
+  document.querySelectorAll('[data-pick]').forEach(function(a){
+    a.addEventListener('click', function(){
+      if(a.dataset.formule) data.p_formule=a.dataset.formule;
+      data.univers=a.dataset.pick; buildStep2(a.dataset.pick); show(1);
+      document.querySelectorAll('.choice').forEach(function(x){ x.classList.toggle('sel', x.dataset.u===a.dataset.pick); });
+    });
+  });
+  /* Ouverture du formulaire depuis la maison 3D, avec le type de travaux déjà choisi */
+  window.ppPick = function(type){
+    data.univers='renovation'; data.r_type=type; buildStep2('renovation'); show(1);
+    document.querySelectorAll('.choice').forEach(function(x){ x.classList.toggle('sel', x.dataset.u==='renovation'); });
+    var f=document.getElementById('projet'); if(f) f.scrollIntoView({behavior:'smooth',block:'start'});
+  };
+  document.getElementById('next2').addEventListener('click', function(){
+    var ok=true; document.querySelectorAll('#s2-fields [required]').forEach(function(el){ if(!el.value.trim()) ok=false; });
+    document.getElementById('err2').textContent = ok ? "" : "Merci de remplir les champs demandés.";
+    if(!ok) return;
+    document.querySelectorAll('#s2-fields input,#s2-fields select,#s2-fields textarea').forEach(function(el){ data[el.id]=el.value; });
+    show(2);
+  });
+  document.querySelectorAll('[data-back]').forEach(function(b){ b.addEventListener('click', function(){ show(parseInt(b.dataset.back,10)-1); }); });
+  document.getElementById('s3').addEventListener('submit', function(e){
+    e.preventDefault();
+    var err=document.getElementById('err3'), need=['prenom','nom','tel','cp'];
+    for(var i=0;i<need.length;i++){ if(!document.getElementById(need[i]).value.trim()){ err.textContent="Merci de remplir tous les champs."; return; } }
+    if(!/^(\+33|0)[1-9]\d{8}$/.test(document.getElementById('tel').value.replace(/[\s.\-]/g,''))){ err.textContent="Le numéro de téléphone ne semble pas valide (ex. 06 12 34 56 78)."; return; }
+    var em=document.getElementById('email').value.trim();
+    if(em && !/^\S+@\S+\.\S+$/.test(em)){ err.textContent="L'adresse email ne semble pas valide."; return; }
+    if(!/^\d{5}$/.test(document.getElementById('cp').value)){ err.textContent="Le code postal doit contenir 5 chiffres."; return; }
+    if(!document.getElementById('rgpd').checked){ err.textContent="Merci de cocher la case d'accord pour être recontacté."; return; }
+    err.textContent="";
+    var payload={"Type de besoin":labels[data.univers]||""}, c=configs[data.univers];
+    if(c){ c.fields.forEach(function(fl){ if(data[fl.id]) payload[fl.label]=data[fl.id]; }); }
+    need.concat(['email']).forEach(function(id){ var el=document.getElementById(id); payload[el.name]=el.value; });
+    payload._subject='Nouveau lead PartPro : '+(payload['Type de projet']||payload['Type de besoin'])+' ('+payload['Code postal']+') '+payload['Prénom'];
+    if(em) payload._replyto=em;
+    if(!LIVE){ show(3); return; } /* version test : rien n'est envoyé */
+    var resume=Object.keys(payload).filter(function(k){ return k.charAt(0)!=='_'; }).map(function(k){ return k+' : '+payload[k]; }).join('\n');
+    var nf='form-name=lead-accueil&details='+encodeURIComponent(resume)+'&telephone='+encodeURIComponent(payload['Téléphone'])+'&code_postal='+encodeURIComponent(payload['Code postal']);
+    var p1=fetch(FORMSPREE,{method:"POST",headers:{"Accept":"application/json","Content-Type":"application/json"},body:JSON.stringify(payload)}).then(function(r){ return r.ok; }).catch(function(){ return false; });
+    var p2=fetch("/",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:nf}).then(function(r){ return r.ok; }).catch(function(){ return false; });
+    Promise.all([p1,p2]).then(function(res){ if(res[0]||res[1]){ show(3); } else { err.textContent="L'envoi n'a pas fonctionné. Réessayez ou appelez le 06 98 97 71 80."; } });
+  });
+})();
+</script>
+<script>
+(function(){
+  var SPOTS = {"sdb": [25.34, 32.42], "clim": [45.68, 46.87], "fenetres": [56.73, 47.21], "combles": [33.35, 28.39], "borne": [72.04, 67.11], "pac": [59.29, 64.91], "toit": [54.96, 24.78]};
+  var ORDER = ['toit','combles','fenetres','clim','sdb','pac','borne'];
+  var Z = {
+    toit:{short:"Toit solaire",where:"Toiture",title:"Panneaux solaires",
+      works:["Panneaux solaires en autoconsommation","Batterie physique ou virtuelle","Réfection de toiture"],
+      aids:[["TVA à 5,5 %","Jusqu'à 9 kWc, sous conditions techniques."],["Revente du surplus","Contrat de rachat avec EDF OA pour l'électricité que vous ne consommez pas."]],
+      note:"La prime à l'autoconsommation est supprimée depuis juin 2026. Le budget 2027 prévoit de durcir la TVA réduite (projet en débat).",warn:true,
+      more:"panneaux-solaires-lyon/",form:"Panneaux solaires"},
+    combles:{short:"Combles",where:"Combles",title:"Isolation des combles",
+      works:["Combles perdus (isolant soufflé)","Combles aménagés et rampants","Isolation des murs"],
+      aids:[["Primes CEE","Pour tous les niveaux de revenus."],["TVA à 5,5 %","Cumulable avec la prime CEE."],["MaPrimeRénov'","Seulement dans une rénovation d'ampleur (au moins 2 classes de DPE gagnées)."]],
+      note:"Depuis septembre 2026, MaPrimeRénov' ne finance plus l'isolation seule.",warn:false,
+      more:"#maison",form:"Isolation"},
+    fenetres:{short:"Fenêtres",where:"Menuiseries",title:"Fenêtres et volets",
+      works:["Double ou triple vitrage","Volets roulants","Porte d'entrée"],
+      aids:[["Primes CEE","Pour des fenêtres performantes, selon le devis."],["TVA à 5,5 %","Sous conditions de performance thermique."]],
+      note:"Depuis septembre 2026, MaPrimeRénov' ne finance plus le changement de fenêtres seul.",warn:false,
+      more:"#maison",form:"Fenêtres et volets"},
+    clim:{short:"Clim réversible",where:"Pièces de vie",title:"Climatisation réversible",
+      works:["Mono-split (une pièce)","Multi-split (plusieurs pièces)","Entretien et remise en service"],
+      aids:[["TVA à 5,5 %","Depuis le 18 juillet 2026 : pose par un pro, logement de plus de 2 ans, appareil A++ en mono-split (A+ en multi-split)."],["Primes CEE","Selon l'appareil installé."]],
+      note:"Pas de MaPrimeRénov' pour une climatisation réversible.",warn:false,
+      more:"climatisation-reversible-lyon/",form:"Climatisation réversible"},
+    sdb:{short:"Salle de bain",where:"Salle de bain",title:"Douche senior et salle de bain",
+      works:["Baignoire remplacée par une douche de plain-pied","Siège, barres d'appui, sol antidérapant","Salle de bain complète"],
+      aids:[["MaPrimeAdapt'","Jusqu'à 70 % des travaux, plafond de 22 000 € HT. Pour les 70 ans et plus, les 60-69 ans en perte d'autonomie ou les personnes en situation de handicap, sous conditions de revenus."]],
+      note:"L'accord de l'Anah est obligatoire avant de commencer les travaux.",warn:false,
+      more:"#maison",form:"Salle de bain / douche senior"},
+    pac:{short:"Pompe à chaleur",where:"Chauffage",title:"Pompe à chaleur",
+      works:["PAC air/eau (chauffage et eau chaude)","Remplacement d'une chaudière gaz ou fioul","Chauffe-eau thermodynamique"],
+      aids:[["MaPrimeRénov' : 3 000 à 5 000 €","Pour une PAC air/eau, selon vos revenus."],["Coup de pouce Chauffage","Si elle remplace une chaudière fioul ou gaz, avec un modèle agréé."],["TVA à 5,5 %",""]],
+      note:"Budget 2027 : la fin de MaPrimeRénov' pour la PAC installée seule est en projet. Rien n'est voté à ce jour.",warn:true,
+      more:"pompe-a-chaleur-lyon/",form:"Pompe à chaleur"},
+    borne:{short:"Borne de recharge",where:"Garage",title:"Borne de recharge",
+      works:["Borne murale 7 kW","Prise renforcée","Mise aux normes électriques"],
+      aids:[["TVA réduite","Logement de plus de 2 ans, installateur qualifié IRVE."],["Prime Advenir","En copropriété uniquement."]],
+      note:"Le crédit d'impôt de 500 € a pris fin le 31 décembre 2025.",warn:false,
+      more:"#energie",form:"Borne de recharge"}
+  };
+
+  var house = document.getElementById('house'), svg = house.querySelector('svg');
+  var intro = document.getElementById('intro'), panel = document.getElementById('zpanel');
+  var zonesBox = document.getElementById('zones'), heroEl = document.querySelector('.hero');
+  var spots = {}, chips = {}, current = null;
+
+  function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+  function groups(k){ return svg.querySelectorAll('.z[data-z="'+k+'"]'); }
+  function hl(k,on){ groups(k).forEach(function(g){ g.classList.toggle('hl',on); }); }
+
+  ORDER.forEach(function(k,i){
+    var p = SPOTS[k], b = document.createElement('button');
+    b.type='button'; b.className='spot'; b.style.left=p[0]+'%'; b.style.top=p[1]+'%';
+    b.setAttribute('aria-label', Z[k].short+' : travaux et aides');
+    b.innerHTML = (i+1)+'<span class="lbl">'+esc(Z[k].short)+'</span>';
+    b.addEventListener('click', function(){ open(k); });
+    b.addEventListener('mouseenter', function(){ hl(k,true); });
+    b.addEventListener('mouseleave', function(){ hl(k,false); });
+    house.appendChild(b); spots[k]=b;
+    var c = document.createElement('button');
+    c.type='button'; c.setAttribute('aria-pressed','false');
+    c.innerHTML = '<i>'+(i+1)+'</i>'+esc(Z[k].short);
+    c.addEventListener('click', function(){ open(k); });
+    zonesBox.appendChild(c); chips[k]=c;
+  });
+
+  svg.querySelectorAll('.z[data-z]').forEach(function(g){
+    var k = g.getAttribute('data-z'); if(!Z[k]) return;
+    g.addEventListener('click', function(){ open(k); });
+    g.addEventListener('mouseenter', function(){ hl(k,true); });
+    g.addEventListener('mouseleave', function(){ hl(k,false); });
+  });
+
+  function render(k){
+    var z = Z[k], n = ORDER.indexOf(k)+1;
+    var h = '<button type="button" class="back" id="back">← Toute la maison</button>';
+    h += '<p class="where"><span class="num">'+n+'</span><span class="eyebrow">'+esc(z.where)+'</span></p>';
+    h += '<h2 id="ptitle" tabindex="-1">'+esc(z.title)+'</h2>';
+    h += '<div class="blk"><h3>Travaux possibles</h3><ul class="works">'+z.works.map(function(w){return '<li>'+esc(w)+'</li>';}).join('')+'</ul></div>';
+    h += '<div class="blk"><h3>Aides disponibles</h3><ul class="aids">'+z.aids.map(function(a){return '<li><b>'+esc(a[0])+'</b>'+(a[1]?'<span>'+esc(a[1])+'</span>':'<span>Sous conditions.</span>')+'</li>';}).join('')+'</ul></div>';
+    if(z.note) h += '<p class="note'+(z.warn?' warn':'')+'">'+esc(z.note)+'</p>';
+    h += '<div class="acts"><a class="btn btn-sun" href="#projet" id="zgo">Faire ma demande : '+esc(z.short.toLowerCase())+' →</a>';
+    if(z.more) h += '<a class="more" href="'+z.more+'">En savoir plus</a>';
+    h += '</div><p class="stamp">Aides vérifiées en octobre 2026. Le montant dépend de vos revenus et de votre logement.</p>';
+    panel.innerHTML = h;
+    document.getElementById('back').addEventListener('click', close);
+    document.getElementById('zgo').addEventListener('click', function(e){ if(window.ppPick){ e.preventDefault(); window.ppPick(z.form); } });
+  }
+
+  function setActive(k){
+    ORDER.forEach(function(x){
+      var on = x===k;
+      spots[x].classList.toggle('act',on);
+      chips[x].setAttribute('aria-pressed', on?'true':'false');
+      groups(x).forEach(function(g){ g.classList.toggle('act',on); });
+    });
+  }
+
+  function open(k){
+    current = k; render(k); setActive(k);
+    intro.hidden = true; panel.hidden = false; heroEl.classList.add('open');
+    var t = document.getElementById('ptitle');
+    if(window.matchMedia('(max-width:900px)').matches){
+      panel.scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block:'start'});
+    }
+    t.focus({preventScroll:true});
+  }
+  function close(){
+    var k = current; current = null; setActive(null);
+    panel.hidden = true; intro.hidden = false; heroEl.classList.remove('open');
+    if(k && spots[k]) spots[k].focus({preventScroll:true});
+  }
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && current) close(); });
+
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches && svg.pauseAnimations) svg.pauseAnimations();
+})();
+</script>
+</body>
+</html>

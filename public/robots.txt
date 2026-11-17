@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://partpro.fr/sitemap.xml
