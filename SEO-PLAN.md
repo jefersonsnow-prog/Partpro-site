@@ -29,7 +29,7 @@ Ce fichier guide chaque publication automatique. **À lire en entier avant d'éc
 - Éviter les tics d'IA : pas de « sans mauvaise surprise » à répétition, pas de « en toute sérénité », pas de mots en trop en fin de phrase.
 - Ne pas cannibaliser : vérifier dans le Journal qu'aucun article publié ne cible déjà le même mot-clé. Si c'est le cas, mettre à jour l'article existant (champ `updated`) plutôt que d'en créer un nouveau.
 
-## Faits de référence (vérifiés le 17/11/2026 — revérifier avant usage)
+## Faits de référence (vérifiés le 17/11/2026, complétés le 18/11/2026 — revérifier avant usage)
 
 - Prime à l'autoconsommation : **supprimée** (arrêté du 1er juin 2026) pour les demandes de raccordement déposées depuis le 5 juin 2026.
 - Rachat du surplus solaire (nouvelles demandes) : 1,1 c€ HT/kWh, indexé 2 %/an, contrat 20 ans. ≤ 9 kWc : vente totale impossible.
@@ -38,6 +38,10 @@ Ce fichier guide chaque publication automatique. **À lire en entier avant d'éc
 - Forfaits PAC air-eau : 5 000 / 4 000 / 3 000 € (très modestes / modestes / intermédiaires), plafond 12 000 €. Géothermie : 11 000 / 9 000 / 6 000 €, plafond 18 000 €. Rien pour les revenus supérieurs.
 - Rénovation d'ampleur : garder ou remettre une chaudière gaz/fioul rend le projet inéligible (depuis le 1er/09/2026).
 - PAC air-air : pas de MaPrimeRénov' par geste ; TVA 5,5 % possible depuis juillet 2026 si critères respectés.
+- Offre intégrée PAC (arrêté du 6/11/2026, JO du 10/11) : depuis le 17/11/2026, bonification CEE 760 000 / 875 000 kWh cumac (chauffage seul / + ECS) pour PAC air-eau agréée remplaçant une chaudière gaz/fioul/charbon, ménages en précarité énergétique, résidence principale. Exclue si aide Anah demandée (sauf refus) ; pas de cumul Coup de pouce Chauffage. « Aide moyenne 9 800 € » = annonce gouvernement, aucun montant en € dans le texte.
+- CEE : depuis le 16/11/2026 (arrêté du 5/11), « modestes » renommés « précarité énergétique » (plafonds hors IDF : 22 259 € pour 1 pers., 32 553 € pour 2, 45 735 € pour 4) ; anciens « précaires » deviennent « très modestes ».
+- Coup de pouce Chauffage : bonification réservée aux PAC agréées (décret 2026-413) pour les devis signés depuis le 1er/09/2026. Montant fixé par chaque signataire.
+- MaPrimeRénov' PAC en 2027 : suppression annoncée (15/10/2026) au 1er/01/2027 via le budget 2027, encore en discussion mi-novembre 2026 → revérifier à chaque article PAC.
 - MaPrimeAdapt' : 70 ans et +, ou 60-69 ans GIR 1 à 6, ou handicap (≥ 50 % ou PCH) ; revenus modestes/très modestes ; 50 % / 70 % des travaux HT, plafond 22 000 € HT ; AMO obligatoire ; dossier avant travaux.
 
 ## Planning des sujets (ordre de priorité)
@@ -48,7 +52,7 @@ Priorité aux requêtes avec intention de projet (prix, aides, comparatifs, « q
 - [x] Prime à l'autoconsommation supprimée : aides solaires restantes
 - [x] MaPrimeRénov' 2026 : la pompe à chaleur, dernier geste aidé
 - [x] Douche senior : prix et MaPrimeAdapt'
-- [ ] Prix d'une pompe à chaleur air-eau en 2026 (posée, avant et après aides)
+- [x] Prix d'une pompe à chaleur air-eau en 2026 (posée, avant et après aides)
 - [ ] Prix des panneaux solaires en 2026 selon la puissance (3, 6, 9 kWc)
 - [ ] Prix d'une climatisation réversible (mono-split, multi-split) en 2026
 - [ ] Remplacer une chaudière gaz par une pompe à chaleur : étapes, coût, aides
@@ -93,3 +97,4 @@ Ces sujets peuvent être réécrits proprement (meilleure qualité, chiffres à 
 | 2026-11-17 | prime-autoconsommation-supprimee-aides-solaire | prime autoconsommation supprimée | Solaire |
 | 2026-11-17 | maprimerenov-2026-pompe-a-chaleur-par-geste | maprimerenov 2026 pompe à chaleur | Pompe à chaleur |
 | 2026-11-17 | douche-senior-prix-aides-maprimeadapt | douche senior prix aide | Salle de bain et seniors |
+| 2026-11-18 | prix-pompe-a-chaleur-air-eau-2026 | prix pompe à chaleur air-eau | Pompe à chaleur |
