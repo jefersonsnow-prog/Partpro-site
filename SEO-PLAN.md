@@ -29,11 +29,12 @@ Ce fichier guide chaque publication automatique. **À lire en entier avant d'éc
 - Éviter les tics d'IA : pas de « sans mauvaise surprise » à répétition, pas de « en toute sérénité », pas de mots en trop en fin de phrase.
 - Ne pas cannibaliser : vérifier dans le Journal qu'aucun article publié ne cible déjà le même mot-clé. Si c'est le cas, mettre à jour l'article existant (champ `updated`) plutôt que d'en créer un nouveau.
 
-## Faits de référence (vérifiés le 17/11/2026, complétés le 18/11/2026 — revérifier avant usage)
+## Faits de référence (vérifiés le 17/11/2026, complétés le 18/11/2026 et le 20/11/2026 — revérifier avant usage)
 
 - Prime à l'autoconsommation : **supprimée** (arrêté du 1er juin 2026) pour les demandes de raccordement déposées depuis le 5 juin 2026.
 - Rachat du surplus solaire (nouvelles demandes) : 1,1 c€ HT/kWh, indexé 2 %/an, contrat 20 ans. ≤ 9 kWc : vente totale impossible.
-- TVA 5,5 % photovoltaïque : ≤ 9 kWc, conditions cumulatives (logement > 2 ans, panneaux bas carbone, système de gestion de l'énergie…), sinon 20 %. Une batterie peut changer le taux.
+- TVA 5,5 % photovoltaïque (depuis le 1/10/2025) : ≤ 9 kWc par installation, dans un local d'habitation **sans condition d'ancienneté** (corrigé le 20/11/2026, BOFiP BOI-TVA-LIQ-30-20-97), panneaux bas carbone (critères arrêté du 8/09/2025), système de gestion de l'énergie pilotant automatiquement les usages ; sinon 20 %. Batterie vendue et posée avec les panneaux = tout à 20 %. Condition « installateur qualifié » votée en loi de finances 2026, doctrine pas encore publiée.
+- Prix PV posés 2026 (ordres de grandeur comparateurs, TTC) : 3 kWc 6 000-10 000 €, 6 kWc 10 000-16 000 €, 9 kWc 13 000-21 000 €. Production région lyonnaise ≈ 1 000-1 200 kWh/kWc/an (toit sud sans ombre).
 - MaPrimeRénov' par geste depuis le 1er/09/2026 (décret 2026-822) : restent PAC air-eau, PAC géothermique/solarothermique, réseau de chaleur, audit, dépose cuve fioul. Isolation, ventilation, bois, chauffe-eau thermo et solaire sortis du geste.
 - Forfaits PAC air-eau : 5 000 / 4 000 / 3 000 € (très modestes / modestes / intermédiaires), plafond 12 000 €. Géothermie : 11 000 / 9 000 / 6 000 €, plafond 18 000 €. Rien pour les revenus supérieurs.
 - Rénovation d'ampleur : garder ou remettre une chaudière gaz/fioul rend le projet inéligible (depuis le 1er/09/2026).
@@ -53,7 +54,7 @@ Priorité aux requêtes avec intention de projet (prix, aides, comparatifs, « q
 - [x] MaPrimeRénov' 2026 : la pompe à chaleur, dernier geste aidé
 - [x] Douche senior : prix et MaPrimeAdapt'
 - [x] Prix d'une pompe à chaleur air-eau en 2026 (posée, avant et après aides)
-- [ ] Prix des panneaux solaires en 2026 selon la puissance (3, 6, 9 kWc)
+- [x] Prix des panneaux solaires en 2026 selon la puissance (3, 6, 9 kWc)
 - [ ] Prix d'une climatisation réversible (mono-split, multi-split) en 2026
 - [ ] Remplacer une chaudière gaz par une pompe à chaleur : étapes, coût, aides
 - [ ] Prime CEE / Coup de pouce Chauffage 2026 : montants et conditions
@@ -98,3 +99,4 @@ Ces sujets peuvent être réécrits proprement (meilleure qualité, chiffres à 
 | 2026-11-17 | maprimerenov-2026-pompe-a-chaleur-par-geste | maprimerenov 2026 pompe à chaleur | Pompe à chaleur |
 | 2026-11-17 | douche-senior-prix-aides-maprimeadapt | douche senior prix aide | Salle de bain et seniors |
 | 2026-11-18 | prix-pompe-a-chaleur-air-eau-2026 | prix pompe à chaleur air-eau | Pompe à chaleur |
+| 2026-11-20 | prix-panneaux-solaires-2026 | prix panneaux solaires 2026 | Solaire |
