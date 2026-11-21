@@ -29,7 +29,7 @@ Ce fichier guide chaque publication automatique. **À lire en entier avant d'éc
 - Éviter les tics d'IA : pas de « sans mauvaise surprise » à répétition, pas de « en toute sérénité », pas de mots en trop en fin de phrase.
 - Ne pas cannibaliser : vérifier dans le Journal qu'aucun article publié ne cible déjà le même mot-clé. Si c'est le cas, mettre à jour l'article existant (champ `updated`) plutôt que d'en créer un nouveau.
 
-## Faits de référence (vérifiés le 17/11/2026, complétés le 18/11/2026 et le 20/11/2026 — revérifier avant usage)
+## Faits de référence (vérifiés le 17/11/2026, complétés le 18/11/2026, le 20/11/2026 et le 21/11/2026 — revérifier avant usage)
 
 - Prime à l'autoconsommation : **supprimée** (arrêté du 1er juin 2026) pour les demandes de raccordement déposées depuis le 5 juin 2026.
 - Rachat du surplus solaire (nouvelles demandes) : 1,1 c€ HT/kWh, indexé 2 %/an, contrat 20 ans. ≤ 9 kWc : vente totale impossible.
@@ -38,7 +38,7 @@ Ce fichier guide chaque publication automatique. **À lire en entier avant d'éc
 - MaPrimeRénov' par geste depuis le 1er/09/2026 (décret 2026-822) : restent PAC air-eau, PAC géothermique/solarothermique, réseau de chaleur, audit, dépose cuve fioul. Isolation, ventilation, bois, chauffe-eau thermo et solaire sortis du geste.
 - Forfaits PAC air-eau : 5 000 / 4 000 / 3 000 € (très modestes / modestes / intermédiaires), plafond 12 000 €. Géothermie : 11 000 / 9 000 / 6 000 €, plafond 18 000 €. Rien pour les revenus supérieurs.
 - Rénovation d'ampleur : garder ou remettre une chaudière gaz/fioul rend le projet inéligible (depuis le 1er/09/2026).
-- PAC air-air : pas de MaPrimeRénov' par geste ; TVA 5,5 % possible depuis juillet 2026 si critères respectés.
+- PAC air-air : pas de MaPrimeRénov' par geste ; TVA 5,5 % depuis le 18/07/2026 (arrêté du 13/07/2026, JO 17/07) : appareil fixe posé par un pro, logement > 2 ans, ≤ 12 kW classe ≥ A++ (mono-split) / ≥ A+ (multi-split) ; sinon pose 10 %, matériel seul 20 % (précisé le 21/11/2026). Prime CEE possible (fiche BAR-TH-129, pro RGE), montant libre.
 - Offre intégrée PAC (arrêté du 6/11/2026, JO du 10/11) : depuis le 17/11/2026, bonification CEE 760 000 / 875 000 kWh cumac (chauffage seul / + ECS) pour PAC air-eau agréée remplaçant une chaudière gaz/fioul/charbon, ménages en précarité énergétique, résidence principale. Exclue si aide Anah demandée (sauf refus) ; pas de cumul Coup de pouce Chauffage. « Aide moyenne 9 800 € » = annonce gouvernement, aucun montant en € dans le texte.
 - CEE : depuis le 16/11/2026 (arrêté du 5/11), « modestes » renommés « précarité énergétique » (plafonds hors IDF : 22 259 € pour 1 pers., 32 553 € pour 2, 45 735 € pour 4) ; anciens « précaires » deviennent « très modestes ».
 - Coup de pouce Chauffage : bonification réservée aux PAC agréées (décret 2026-413) pour les devis signés depuis le 1er/09/2026. Montant fixé par chaque signataire.
@@ -55,7 +55,7 @@ Priorité aux requêtes avec intention de projet (prix, aides, comparatifs, « q
 - [x] Douche senior : prix et MaPrimeAdapt'
 - [x] Prix d'une pompe à chaleur air-eau en 2026 (posée, avant et après aides)
 - [x] Prix des panneaux solaires en 2026 selon la puissance (3, 6, 9 kWc)
-- [ ] Prix d'une climatisation réversible (mono-split, multi-split) en 2026
+- [x] Prix d'une climatisation réversible (mono-split, multi-split) en 2026
 - [ ] Remplacer une chaudière gaz par une pompe à chaleur : étapes, coût, aides
 - [ ] Prime CEE / Coup de pouce Chauffage 2026 : montants et conditions
 - [ ] Panneaux solaires à Lyon : ensoleillement, production, démarches en mairie
@@ -100,3 +100,4 @@ Ces sujets peuvent être réécrits proprement (meilleure qualité, chiffres à 
 | 2026-11-17 | douche-senior-prix-aides-maprimeadapt | douche senior prix aide | Salle de bain et seniors |
 | 2026-11-18 | prix-pompe-a-chaleur-air-eau-2026 | prix pompe à chaleur air-eau | Pompe à chaleur |
 | 2026-11-20 | prix-panneaux-solaires-2026 | prix panneaux solaires 2026 | Solaire |
+| 2026-11-21 | prix-climatisation-reversible-2026 | prix climatisation réversible | Climatisation |
